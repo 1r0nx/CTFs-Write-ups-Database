@@ -6,7 +6,7 @@ difficulty: "Not specified"
 points: 0
 techniques: []
 tools: []
-keywords: []
+keywords: ["forbidden", "scroll", "serie", "the"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Serie/The-forbidden-scroll/writeup.md"

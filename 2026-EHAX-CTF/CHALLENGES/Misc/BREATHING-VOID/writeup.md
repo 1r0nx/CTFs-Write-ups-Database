@@ -4,9 +4,9 @@ ctf: "2026-EHAX-CTF"
 category: "Misc"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["misc", "reverse"]
 tools: []
-keywords: []
+keywords: ["breathing", "misc", "void"]
 status: "solved"
 has_script: false
 source: "2026-EHAX-CTF/Misc/BREATHING-VOID/writeup.md"

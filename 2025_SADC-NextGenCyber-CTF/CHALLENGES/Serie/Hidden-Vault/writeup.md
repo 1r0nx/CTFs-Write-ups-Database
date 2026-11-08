@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Serie"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["web"]
 tools: []
-keywords: []
+keywords: ["hidden", "serie", "vault"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Serie/Hidden-Vault/writeup.md"

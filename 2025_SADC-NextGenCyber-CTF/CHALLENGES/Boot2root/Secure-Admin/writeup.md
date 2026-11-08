@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Boot2root"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["reverse"]
 tools: []
-keywords: []
+keywords: ["admin", "boot2root", "secure"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Boot2root/Secure-Admin/writeup.md"

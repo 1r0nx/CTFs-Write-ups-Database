@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "OSINT"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["osint"]
 tools: []
-keywords: []
+keywords: ["osint", "protonpgp"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/OSINT/ProtonPgp/writeup.md"

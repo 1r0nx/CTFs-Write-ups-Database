@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "OSINT"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["osint", "web"]
 tools: []
-keywords: []
+keywords: ["2", "currency", "new", "osint"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/OSINT/New-Currency-2/writeup.md"

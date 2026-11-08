@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Forensics"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["forensics"]
 tools: []
-keywords: []
+keywords: ["47", "agent", "forensics"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Forensics/Agent-47/writeup.md"

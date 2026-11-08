@@ -4,9 +4,9 @@ ctf: "2026-EHAX-CTF"
 category: "Forensics"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["forensics"]
 tools: []
-keywords: []
+keywords: ["forensics", "painter"]
 status: "solved"
 has_script: false
 source: "2026-EHAX-CTF/Forensics/PAINTER/writeup.md"
@@ -38,7 +38,7 @@ Opening it in wireshark show that it’s a capture of USB protocol
 
 Now by looking around google and AI help I found something called “7-byte mouse report”
 
-![image.png](img/image%201.png)
+![image.png](img/image_01.png)
 
 First I extracted the mouses data with:
 
@@ -48,7 +48,7 @@ tshark -r pref.pcap -T fields -e usb.capdata > data.txt
 
 Here is an overview of the file:
 
-![image.png](img/image%202.png)
+![image.png](img/image_02.png)
 
 And wrote a python script to recover the mouse path 
 

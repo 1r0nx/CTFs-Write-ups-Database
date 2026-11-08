@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Web"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["web", "xss"]
 tools: []
-keywords: []
+keywords: ["samurai", "web"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Web/Samurai.md"

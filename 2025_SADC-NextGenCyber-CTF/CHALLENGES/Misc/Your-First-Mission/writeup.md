@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Misc"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["misc", "reverse"]
 tools: []
-keywords: []
+keywords: ["first", "misc", "mission", "your"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Misc/Your First Mission.md"

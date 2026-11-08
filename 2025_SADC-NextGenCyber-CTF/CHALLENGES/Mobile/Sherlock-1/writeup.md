@@ -6,7 +6,7 @@ difficulty: "Not specified"
 points: 0
 techniques: []
 tools: []
-keywords: []
+keywords: ["1", "mobile", "sherlock"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Mobile/Sherlock-1/writeup.md"

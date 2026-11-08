@@ -4,9 +4,9 @@ ctf: "2026-EHAX-CTF"
 category: "Forensics"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["forensics"]
 tools: []
-keywords: []
+keywords: ["baby", "forensics", "serial"]
 status: "solved"
 has_script: false
 source: "2026-EHAX-CTF/Forensics/BABY-SERIAL/writeup.md"

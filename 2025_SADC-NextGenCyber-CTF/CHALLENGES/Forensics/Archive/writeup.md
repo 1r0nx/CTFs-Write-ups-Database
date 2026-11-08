@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Forensics"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["forensics", "web"]
 tools: []
-keywords: []
+keywords: ["archive", "forensics"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Forensics/Archive/writeup.md"

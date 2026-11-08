@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Forensics"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["forensics", "sql", "web"]
 tools: []
-keywords: []
+keywords: ["activities", "forensics", "suspicious", "web"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Forensics/Suspicious-Web-Activities/writeup.md"

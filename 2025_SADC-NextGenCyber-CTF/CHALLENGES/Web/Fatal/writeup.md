@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Web"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["lfi", "web"]
 tools: []
-keywords: []
+keywords: ["fatal", "web"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Web/Fatal.md"

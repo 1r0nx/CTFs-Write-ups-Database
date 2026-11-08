@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Cryptography"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["crypto"]
 tools: []
-keywords: []
+keywords: ["cryptography", "decoder"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Cryptography/Decoder/writeup.md"

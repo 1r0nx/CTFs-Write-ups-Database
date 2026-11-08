@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Serie"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["web"]
 tools: []
-keywords: []
+keywords: ["echoes", "of", "scroll", "serie", "the"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Serie/Echoes-of-the-scrolls/writeup.md"

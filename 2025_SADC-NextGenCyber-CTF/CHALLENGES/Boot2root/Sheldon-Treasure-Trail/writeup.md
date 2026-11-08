@@ -4,9 +4,9 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Boot2root"
 difficulty: "Not specified"
 points: 0
-techniques: []
+techniques: ["rfi", "web"]
 tools: []
-keywords: []
+keywords: ["boot2root", "sheldon", "trail", "treasure"]
 status: "solved"
 has_script: false
 source: "2025_SADC-NextGenCyber-CTF/Boot2root/Sheldon-Treasure-Trail/writeup.md"
