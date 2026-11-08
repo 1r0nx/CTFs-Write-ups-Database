@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+import argparse, os, re, sqlite3, sys
+from pathlib import Path
+
+ROOT = Path(os.environ.get("CTF_DB", str(Path(__file__).resolve().parent)))
+
+
+def parse(path):
+    text = path.read_text(errors="replace")
+    meta, body = {}, text
+    m = re.match(r"---\s*\n(.*?)\n---\s*\n(.*)", text, re.S)
+    if m:
+        body = m.group(2)
+        for line in m.group(1).splitlines():
+            k, sep, v = line.partition(":")
+            if sep:
+                meta[k.strip()] = re.sub(r"[\[\]\"',]", " ", v).strip()
+    return meta, body
+
+
+def build():
+    db = sqlite3.connect(":memory:")
+    db.execute("CREATE VIRTUAL TABLE docs USING fts5(ctf, category, challenge, "
+               "techniques, keywords, tools, body, path UNINDEXED, "
+               "tokenize='unicode61 remove_diacritics 2')")
+    for p in sorted(ROOT.rglob("writeup.md")):
+        parts = p.relative_to(ROOT).parts
+        ctf = parts[0] if len(parts) > 1 else ""
+        cat = parts[2] if len(parts) >= 5 else ""
+        chal = parts[3] if len(parts) >= 5 else p.parent.name
+        meta, body = parse(p)
+        db.execute("INSERT INTO docs VALUES (?,?,?,?,?,?,?,?)",
+                   (ctf, cat, chal + " " + meta.get("title", ""),
+                    meta.get("techniques", ""), meta.get("keywords", ""),
+                    meta.get("tools", ""), body, str(p)))
+    return db
+
+
+def search(db, terms, cat, ctf, limit):
+    toks = re.findall(r"\w+", " ".join(terms), re.U)
+    if not toks:
+        sys.exit("Usage : ctf-find [-c catégorie] [-C ctf] [-n N] mots-clés")
+    filt, params = "", []
+    if cat:
+        filt += " AND category LIKE ?"; params.append(f"%{cat}%")
+    if ctf:
+        filt += " AND ctf LIKE ?"; params.append(f"%{ctf}%")
+    for joiner in (" AND ", " OR "):  # d'abord strict, puis élargi
+        q = joiner.join(f'"{t}"*' for t in toks)
+        sql = ("SELECT ctf, category, challenge, techniques, "
+               "snippet(docs, 6, '«', '»', '…', 14), path FROM docs "
+               "WHERE docs MATCH ?" + filt +
+               " ORDER BY bm25(docs, 1, 1, 6, 8, 6, 2, 1, 0) LIMIT ?")
+        rows = db.execute(sql, [q] + params + [limit]).fetchall()
+        if rows:
+            return rows, joiner.strip()
+    return [], ""
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("terms", nargs="*")
+    ap.add_argument("-c", "--cat", help="filtrer par catégorie (ex. crypto)")
+    ap.add_argument("-C", "--ctf", help="filtrer par CTF (ex. picoCTF)")
+    ap.add_argument("-n", type=int, default=8, help="nombre de résultats")
+    a = ap.parse_args()
+    rows, mode = search(build(), a.terms, a.cat, a.ctf, a.n)
+    if not rows:
+        print("Aucun résultat."); return
+    if mode == "OR":
+        print("(aucun write-up ne contient tous les mots, résultats élargis)\n")
+    for i, (ctf, cat, chal, tech, snip, path) in enumerate(rows, 1):
+        print(f"{i}. {ctf} › {cat} › {chal.split()[0]}")
+        if tech.strip():
+            print(f"   techniques : {' '.join(tech.split())}")
+        print(f"   {' '.join(snip.split())}")
+        print(f"   → {path}\n")
+
+
+main()
