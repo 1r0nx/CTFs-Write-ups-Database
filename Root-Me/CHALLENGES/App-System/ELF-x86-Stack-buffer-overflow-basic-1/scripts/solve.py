@@ -1,4 +1,3 @@
-# ELF-x86-Stack-buffer-overflow-basic-1 — Root-Me (script de solve)
 from pwn import *
 
 context.log_level = 'debug'
