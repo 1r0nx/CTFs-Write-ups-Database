@@ -2,8 +2,8 @@
 title: "ICMP-exfiltration"
 ctf: "Root-Me"
 category: "forensics"
-difficulty: "Not specified"
-points: null
+difficulty: "medium"
+points: 20
 techniques: ["pcap-analysis", "icmp-exfiltration", "encoding"]
 tools: ["python"]
 keywords: ["ICMP-exfiltration", "Root-Me", "forensics", "pcap-analysis", "encoding", "python", "pcap", "icmp"]
@@ -18,8 +18,27 @@ source: "Root-Me/Forensic/ICMP-exfiltration/solve.txt"
 Challenge **ICMP-exfiltration** from the Root-Me CTF, forensics category. Main technique: pcap-analysis. The program expects exactly two arguments: The first argument is the message to transmit and the second is the IP address of the recipient machine. The message is never sent directly over the network. The blur_text() function converts each character to uppercase then searches for its match in a table (ABC_TABLE).
 
 ## Statement and artefacts
-**Provided files / artifacts:**
-- `ch50.zip (archive, 37.7 KB)`
+
+**Official statement (Root-Me, English page):**
+
+Your SOC has detected a successful intrusion on an administration server. The intrusion was carried out from the outside using the administrator’s password, although he was not present at the time. We suspect that his password had been previously compromised ,but there is no trace of this on the IDS.
+
+However, N1 SOC analysts isolated suspicious ICMP traffic the previous day. The alert criterion was the length and shape of the load, which was inconsistent with Linux.
+The CSIRT team deployed on site succeeded in recovering a suspicious binary, whose name seems to be directly linked to the SOC detection.
+
+Find the exfiltrated data!
+
+**sha256sum:** `c5d9abda3504725a90fed54c27fc4ccea8510315dbc1daac7934f0e5841986e3`
+
+- **Category:** Forensics
+- **Difficulty:** Medium
+- **Points:** 20
+- **Author(s):** M4tou
+- **Published:** 2026-04-21 12:11:43
+- **Root-Me page:** https://www.root-me.org/en/Challenges/Forensic/ICMP-exfiltration
+
+**Provided file (as listed on Root-Me):**
+- [`ch50.zip`](https://static.root-me.org/forensic/ch50/ch50.zip) — challenge archive.
 
 ## Recognition signals
 Not specified.

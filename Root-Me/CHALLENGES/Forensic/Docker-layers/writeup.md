@@ -2,8 +2,8 @@
 title: "Docker-layers"
 ctf: "Root-Me"
 category: "forensics"
-difficulty: "Not specified"
-points: null
+difficulty: "medium"
+points: 20
 techniques: ["aes-cbc"]
 tools: ["curl", "openssl"]
 keywords: ["Docker-layers", "Root-Me", "forensics", "aes-cbc", "curl", "openssl", "pe", "https", "aes", "cbc"]
@@ -18,17 +18,20 @@ source: "Root-Me/Forensic/Docker-layers/solve.txt"
 Challenge **Docker-layers** from the Root-Me CTF, forensics category. Main technique: aes-cbc. The command "grep -R "openssl"." gives We can now recover it with
 
 ## Statement and artefacts
-**Provided files / artifacts:**
-- `316bbb8c58be42c73eefeb8fc0fdc6abb99bf3d5686dd5145fc7bb2f32790229.tar (archive, 2.0 KB)`
-- `3309d6da2bd696689a815f55f18db3f173bc9b9a180e5616faf4927436cf199d.tar (archive, 2.0 KB)`
-- `4942a1abcbfa1c325b1d7ed93d3cf6020f555be706672308a4a4a6b6d631d2e7.tar (archive, 71.7 MB)`
-- `743c70a5f809c27d5c396f7ece611bc2d7c85186f9fdeb68f70986ec6e4d165f.tar (archive, 16.0 MB)`
-- `8d364403e7bf70d7f57e807803892edf7304760352a397983ecccb3e76ca39fa.tar (archive, 1.5 KB)`
-- `b324f85f8104bfebd1ed873e90437c0235d7a43f025a047d5695fe461da717c6.json (text, 2.4 KB)`
-- `b58c5e8ccaba8886661ddd3b315989f5cf7839ea06bbe36547c6f49993b0d0aa.tar (archive, 29.0 MB)`
-- `ch29.tar (archive, 116.6 MB)`
-- `manifest.json (text, 573 B)`
-- `repositories (file, 111 B)`
+
+**Official statement (Root-Me, English page):**
+
+I lost the password I used to encrypt my secret flag file. Could you help me to recover it ?
+
+- **Category:** Forensics
+- **Difficulty:** Medium
+- **Points:** 20
+- **Author(s):** mayfly
+- **Published:** 2022-06-07 23:37:43
+- **Root-Me page:** https://www.root-me.org/en/Challenges/Forensic/Docker-layers
+
+**Provided file (as listed on Root-Me):**
+- [`ch29.tar`](https://static.root-me.org/forensic/ch29/ch29.tar) — challenge archive.
 
 ## Recognition signals
 Not specified.

@@ -2,8 +2,8 @@
 title: "Data-extraction"
 ctf: "Root-Me"
 category: "network"
-difficulty: "easy"
-points: null
+difficulty: "medium"
+points: 20
 techniques: ["pcap-analysis", "smb", "nfs", "ftp"]
 tools: ["wireshark", "tshark", "tar", "python"]
 keywords: ["Data-extraction", "Root-Me", "network", "pcap-analysis", "smb", "nfs", "ftp", "wireshark", "tshark", "tar", "python", "pcap", "pcapng", "png", "jpg", "tcp"]
@@ -18,12 +18,26 @@ source: "Root-Me/Network/Data-extraction/note.md"
 Challenge **Data-extraction** from the Root-Me CTF, network category. Main technique: pcap-analysis. Source file: chall_wireshark.pcapng — a capture where files pass through three different protocols: FTP, SMB and NFS. Objective: extract everything, the flag is hidden in one of the recovered files.
 
 ## Statement and artefacts
-Source file: chall_wireshark.pcapng — a capture where files pass through three different protocols: FTP, SMB and NFS. Objective: extract everything, the flag is hidden in one of the recovered files.
 
-**Provided files / artifacts:**
-- `0-holidays.mp4 (video, 982.1 KB)`
-- `ch31.zip (archive, 3.5 MB)`
-- `chall_wireshark.pcapng (network capture, 3.7 MB)`
+**Official statement (Root-Me, English page):**
+
+Your network teacher provides you with this capture and asks you to try and find the files he has sent through your test lab.
+
+The flag is the concatenation of the three flags present in the files.
+
+Good luck! :)
+
+**sha256sum:** `66adb6a6a6c96c486e9f1856bf5039ab3b7a713b2a94e834ed281e7444f8aea7`
+
+- **Category:** Network
+- **Difficulty:** Medium
+- **Points:** 20
+- **Author(s):** Tidusrose
+- **Published:** 2024-05-28 12:00:41
+- **Root-Me page:** https://www.root-me.org/en/Challenges/Network/Data-extraction
+
+**Provided file (as listed on Root-Me):**
+- [`ch31.zip`](https://static.root-me.org/reseau/ch31/ch31.zip) — challenge archive.
 
 ## Recognition signals
 - Signal: File carving from multi-protocol network capture.

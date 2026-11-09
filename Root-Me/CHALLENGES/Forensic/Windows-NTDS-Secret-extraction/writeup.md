@@ -2,8 +2,8 @@
 title: "Windows-NTDS-Secret-extraction"
 ctf: "Root-Me"
 category: "forensics"
-difficulty: "Not specified"
-points: null
+difficulty: "medium"
+points: 20
 techniques: ["forensics"]
 tools: ["impacket"]
 keywords: ["Windows-NTDS-Secret-extraction", "Root-Me", "forensics", "impacket"]
@@ -18,8 +18,22 @@ source: "Root-Me/Forensic/Windows-NTDS-Secret-extraction/solve.txt"
 Challenge **Windows-NTDS-Secret-extraction** from the Root-Me CTF, forensics category. The Windows-NTDS-Secret-extraction (Root-Me, forensics) challenge is documented by a resolution note.
 
 ## Statement and artefacts
-**Provided files / artifacts:**
-- `ch34.zip (archive, 9.6 MB)`
+
+**Official statement (Root-Me, English page):**
+
+You have a backup of the registry and NTDS of a Windows server hosting an Active Directory. Can you extract its secrets from these files?
+
+The flag is the key **aes256-cts-hmac-sha1-96** of the **krbtgt** account.
+
+- **Category:** Forensics
+- **Difficulty:** Medium
+- **Points:** 20
+- **Author(s):** Podalirius
+- **Published:** 2022-11-17 15:42:50
+- **Root-Me page:** https://www.root-me.org/en/Challenges/Forensic/Windows-NTDS-Secret-extraction
+
+**Provided file (as listed on Root-Me):**
+- [`ch34.zip`](https://static.root-me.org/forensic/ch34/ch34.zip) — challenge archive.
 
 ## Recognition signals
 Not specified.

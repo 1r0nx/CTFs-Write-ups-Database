@@ -2,8 +2,8 @@
 title: "Kerberos-Authentication"
 ctf: "Root-Me"
 category: "network"
-difficulty: "Not specified"
-points: null
+difficulty: "easy"
+points: 10
 techniques: ["password-cracking", "pcap-analysis", "kerberos", "encoding", "hash-cracking"]
 tools: ["tshark", "john"]
 keywords: ["Kerberos-Authentication", "Root-Me", "network", "password-cracking", "pcap-analysis", "kerberos", "encoding", "hash-cracking", "tshark", "john", "pcapng", "aes"]
@@ -18,14 +18,26 @@ source: "Root-Me/Network/Kerberos-Authentication/solve.md"
 Challenge **Kerberos-Authentication** from the Root-Me CTF, network category. Main technique: password-cracking. We convert the.pcapng to.pdml to be able to extract the hash and break it
 
 ## Statement and artefacts
-We convert the.pcapng to.pdml to be able to extract the hash and break it
 
-**Provided files / artifacts:**
-- `CredentialDump-Session.log (text, 0 B)`
-- `ch29.zip (archive, 9.5 KB)`
-- `hash.txt (text, 154 B)`
-- `kerberos_auth.pcapng (network capture, 21.0 KB)`
-- `kerberos_auth.pdml (file, 1.9 MB)`
+**Official statement (Root-Me, English page):**
+
+You have been asked by Cat Corporation’s SOC team to retrieve a user’s password linked to a suspicious Kerberos connection.
+
+Flag format: `RM{userPrincipalName:password}`
+
+* The userPrincipalName must be written in lowercase.
+
+**sha256sum:** `0770efe5374637534fe55fdf51a3b7a1d5c58a1d6027d7143ce0a491ffd66405`
+
+- **Category:** Network
+- **Difficulty:** Easy
+- **Points:** 10
+- **Author(s):** nuts.
+- **Published:** 2024-05-28 12:00:37
+- **Root-Me page:** https://www.root-me.org/en/Challenges/Network/Kerberos-Authentication
+
+**Provided file (as listed on Root-Me):**
+- [`ch29.zip`](https://static.root-me.org/reseau/ch29/ch29.zip) — challenge archive.
 
 ## Recognition signals
 Not specified.

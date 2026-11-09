@@ -118,6 +118,12 @@ Un tableau par CTF avec les colonnes : Catégorie | Challenge | Techniques | Scr
 - Ne pas copier les fichiers fournis par le challenge, les gros fichiers (plus de 1 Mo), ni les binaires.
 - Ajouter en tête du script copié un commentaire d'une ligne indiquant le challenge, uniquement si le fichier n'en a pas déjà un.
 
+## Root-Me : API, secrets et fichiers fournis
+
+- La configuration Root-Me (clé API + session web SPIP) est stockée **hors du dépôt**, dans `/workspace/Root-Me/config.sh`. La lire uniquement depuis ce fichier ; ne jamais la recopier dans un write-up, un script versionné ou une réponse.
+- Pour récupérer un énoncé officiel, utiliser la page anglaise du challenge. Les pages HTML sont protégées par Anubis : prévoir un navigateur ou un client qui résout le proof-of-work.
+- Ne pas télécharger les archives uniquement pour décrire leur contenu : référencer le fichier tel qu'il apparaît sur la plateforme, avec son lien direct.
+
 ## Contrôle avant de terminer un write-up
 
 - Le chemin respecte `<CTF>/CHALLENGES/<Catégorie>/<Challenge>/writeup.md`.
