@@ -75,29 +75,29 @@ WAV 48 kHz stereo 16-bit, 26 min. Three floors, described in `work/hint/archivis
 - VM self-decryption depends on the integrity of the execution flow (R15), not on an external secret: emulable.
 
 ## Solve script
-Script path: `scripts/analyze_tuples.py`
-Script path: `scripts/cepstrum.py`
-Script path: `scripts/demod.py`
-Script path: `scripts/extract_frame.py`
-Script path: `scripts/global_ac.py`
-Script path: `scripts/lsb_hunt.py`
-Script path: `scripts/mirror_dup.py`
-Script path: `scripts/mvm1.py`
-Script path: `scripts/notes_detect.py`
-Script path: `scripts/parity_coding.py`
-Script path: `scripts/parse_tlv.py`
-Script path: `scripts/sm64.py`
-Script path: `scripts/sm64_anystart.py`
-Script path: `scripts/sm64_bit1.py`
-Script path: `scripts/sm64_block.py`
-Script path: `scripts/sm64_lemire.py`
-Script path: `scripts/sm64_magic.py`
-Script path: `scripts/sm64_modG.py`
-Script path: `scripts/sm64_modG2.py`
-Script path: `scripts/sm64_scan.py`
-Script path: `scripts/sm64_wide.py`
-Script path: `scripts/solve_hnp.py`
-Script path: `scripts/tonal_scan.py`
+Script path: [scripts/analyze_tuples.py](scripts/analyze_tuples.py)
+Script path: [scripts/cepstrum.py](scripts/cepstrum.py)
+Script path: [scripts/demod.py](scripts/demod.py)
+Script path: [scripts/extract_frame.py](scripts/extract_frame.py)
+Script path: [scripts/global_ac.py](scripts/global_ac.py)
+Script path: [scripts/lsb_hunt.py](scripts/lsb_hunt.py)
+Script path: [scripts/mirror_dup.py](scripts/mirror_dup.py)
+Script path: [scripts/mvm1.py](scripts/mvm1.py)
+Script path: [scripts/notes_detect.py](scripts/notes_detect.py)
+Script path: [scripts/parity_coding.py](scripts/parity_coding.py)
+Script path: [scripts/parse_tlv.py](scripts/parse_tlv.py)
+Script path: [scripts/sm64.py](scripts/sm64.py)
+Script path: [scripts/sm64_anystart.py](scripts/sm64_anystart.py)
+Script path: [scripts/sm64_bit1.py](scripts/sm64_bit1.py)
+Script path: [scripts/sm64_block.py](scripts/sm64_block.py)
+Script path: [scripts/sm64_lemire.py](scripts/sm64_lemire.py)
+Script path: [scripts/sm64_magic.py](scripts/sm64_magic.py)
+Script path: [scripts/sm64_modG.py](scripts/sm64_modG.py)
+Script path: [scripts/sm64_modG2.py](scripts/sm64_modG2.py)
+Script path: [scripts/sm64_scan.py](scripts/sm64_scan.py)
+Script path: [scripts/sm64_wide.py](scripts/sm64_wide.py)
+Script path: [scripts/solve_hnp.py](scripts/solve_hnp.py)
+Script path: [scripts/tonal_scan.py](scripts/tonal_scan.py)
 
 ## Flag
 hiCTF{h1dd3n_numb3r_l4ttice_le4k}

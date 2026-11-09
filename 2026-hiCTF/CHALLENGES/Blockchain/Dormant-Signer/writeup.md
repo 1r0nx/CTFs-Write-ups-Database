@@ -67,7 +67,7 @@ Initially I had assumed that `blob = escrow ^ mask` (running_digest cancels) →
 - The security of escrow is entirely based on “only the signer can produce his liveness signature” — false as soon as the key leaks (the liveness signature is **deterministic**, therefore **unique**, therefore reproducible).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{layout_undead_borrowed_betrays}

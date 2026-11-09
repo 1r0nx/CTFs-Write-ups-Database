@@ -70,8 +70,8 @@ Full RELRO · NX · Canary · **PIE** · stripped · libc Debian glibc 2.42 (pro
 - Diagnostic mode `--status` (ORW of `/proc/self/status`, which definitely exists) = key to distinguishing “broken mechanics” from “bad flag path”.
 
 ## Solve script
-Script path: `scripts/exp.py`
-Script path: `scripts/pwny.py`
+Script path: [scripts/exp.py](scripts/exp.py)
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 CTF{e0a79830f06dca87a52f8be6d895deae}

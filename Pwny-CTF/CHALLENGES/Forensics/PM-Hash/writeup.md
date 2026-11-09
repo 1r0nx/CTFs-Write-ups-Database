@@ -50,8 +50,8 @@ Not specified.
 4. Recombine the candidates and recheck the full hash → password `i_l0vE_blAckbeRr13s`.
 
 ## Solve script
-Script path: `scripts/hasher.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/hasher.py](scripts/hasher.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 i_l0vE_blAckbeRr13s

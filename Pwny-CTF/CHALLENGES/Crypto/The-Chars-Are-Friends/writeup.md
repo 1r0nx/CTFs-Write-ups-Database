@@ -47,10 +47,10 @@ For each byte: `low = c & 0x3f`, `{low, low|0x40, low|0x80, low|0xc0}` candidate
 ```
 
 ## Solve script
-Script path: `scripts/my-solve.py`
-Script path: `scripts/solve.py`
-Script path: `scripts/test.py`
-Script path: `scripts/the_chars_are_friends.py`
+Script path: [scripts/my-solve.py](scripts/my-solve.py)
+Script path: [scripts/solve.py](scripts/solve.py)
+Script path: [scripts/test.py](scripts/test.py)
+Script path: [scripts/the_chars_are_friends.py](scripts/the_chars_are_friends.py)
 
 ## Flag
 sigpwny{random_isnt_automatically_secure}

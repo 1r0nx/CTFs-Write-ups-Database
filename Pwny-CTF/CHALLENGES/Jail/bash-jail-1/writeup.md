@@ -43,8 +43,8 @@ eval "$input" > /dev/null    # stdout thrown, but not stderr
 We cannot see the stdout of our commands, but stderr remains visible.
 
 ## Solve script
-Script path: `scripts/main.sh`
-Script path: `scripts/solve.py`
+Script path: [scripts/main.sh](scripts/main.sh)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{$h3l1_sP4wner}

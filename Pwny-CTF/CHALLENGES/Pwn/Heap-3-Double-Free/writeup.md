@@ -99,7 +99,7 @@ Double free in fastbin (`free(A);free(B);free(A)` with a free interspersed to av
 ---
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{i_th1nk_th1s_is_finally_d0ubl3_tr0ubl3_d0ubl3_tr0ubl3}

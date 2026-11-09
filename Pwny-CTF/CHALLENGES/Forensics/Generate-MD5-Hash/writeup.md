@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "forensics"
 difficulty: "Not specified"
 points: 25
-techniques: []
+techniques: ["forensics", "hash-cracking"]
 tools: []
 keywords: ["Generate-MD5-Hash", "Pwny-CTF", "forensics"]
 status: "solved"

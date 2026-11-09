@@ -50,8 +50,8 @@ This challenge requires a PIE leak, followed by an arbitrary read. Reference the
 Launch: `./pwny.py --remote --host chal.sigpwny.com --port 1383`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
-Script path: `scripts/solve.template.py`
+Script path: [`scripts/pwny.py`](scripts/pwny.py)
+Script path: [`scripts/solve.template.py`](scripts/solve.template.py)
 
 ## Flag
 sigpwny{i_love_pie}

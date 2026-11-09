@@ -63,7 +63,7 @@ See `work/solve.py` (autonomous reverse + re-encoding verification). Install the
 Extension `.wy` + indices (“is the flag even in English?”, Google Translate) = **wenyan-lang**. Interpreter: `@wenyanlang/core` (npm). `吾嘗觀「「X」」之書。方悟「f」之義。` are standard library imports.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 西格普尼「西格普尼，伊利諾州之州學之資安社也。」

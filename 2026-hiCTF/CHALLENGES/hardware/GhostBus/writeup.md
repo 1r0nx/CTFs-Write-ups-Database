@@ -65,7 +65,7 @@ Secret nonce exfiltrated by **sniffing the internal UART bus** (MCU ↔ secure e
 - AES S-box: `63 7c 77 7b f2 6b 6f c5 30 01 67 2b …`. Rcon: `01 02 04 08 10 20 40 80 1b 36 …`. inv-S-box: `52 09 6a d5 30 36 a5 38 …`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{gh0st_bu5_uart_n0nc3_r3v3al_9c3f12}

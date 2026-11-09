@@ -44,7 +44,7 @@ Key reused ⇒ for two messages: `c_i ⊕ c_j = m_i ⊕ m_j` (the key disappears
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{they_rebooted_mtv_cribs_in_2021}

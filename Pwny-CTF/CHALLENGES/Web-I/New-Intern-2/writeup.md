@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "web"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["encoding", "reverse-engineering"]
 tools: []
 keywords: ["New-Intern-2", "Pwny-CTF", "web"]
 status: "solved"

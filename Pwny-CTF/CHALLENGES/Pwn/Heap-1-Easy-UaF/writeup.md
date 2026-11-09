@@ -61,7 +61,7 @@ My payload (name + `logged_in=1`, switch *after* reoccupancy) is the **general v
 `del_user` releases the chunk **but does not do `users[arg1]=NULL`** → ghost pointer (UaF). The chunk returns to the 0x40 cache and will be returned to the next object 64 B (a document) → `users[id]` and `documents[j]` **alias** the same memory.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{wdym_1_sh0uld_set_v4rs_t0_null_wh3n_freed}

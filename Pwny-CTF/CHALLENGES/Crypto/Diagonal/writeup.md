@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "crypto"
 difficulty: "Not specified"
 points: 500
-techniques: []
+techniques: ["crypto"]
 tools: ["netcat", "python"]
 keywords: ["Diagonal", "Pwny-CTF", "crypto", "netcat", "python"]
 status: "solved"
@@ -45,9 +45,9 @@ M = [[1,1,0],
 (A block of Jordan `[[1,1],[0,1]]^d = [[1, d],[0,1]]`.) The requested amount is then worth `1+1+1 + d + 0 + 0 = d + 3`. So `secret = res - 3`. We submit and obtain `sigpwny{mult1d1m3n510n4l}`.
 
 ## Solve script
-Script path: `scripts/public.py`
-Script path: `scripts/solve.py`
-Script path: `scripts/starter.py`
+Script path: [scripts/public.py](scripts/public.py)
+Script path: [scripts/solve.py](scripts/solve.py)
+Script path: [scripts/starter.py](scripts/starter.py)
 
 ## Flag
 sigpwny{mult1d1m3n510n4l}

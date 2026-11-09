@@ -4,7 +4,7 @@ ctf: "2026-hiCTF"
 category: "crypto"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["crypto"]
 tools: []
 keywords: ["Cipher-Cascade", "hiCTF", "crypto"]
 status: "solved"

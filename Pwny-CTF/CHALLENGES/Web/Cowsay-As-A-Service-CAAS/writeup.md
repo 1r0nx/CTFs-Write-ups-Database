@@ -5,7 +5,7 @@ category: "web"
 difficulty: "Not specified"
 points: 75
 techniques: ["substitution-cipher", "command-injection"]
-tools: []
+tools: ["python"]
 keywords: ["Cowsay-As-A-Service-CAAS", "Pwny-CTF", "web", "substitution-cipher", "command-injection", "http"]
 status: "solved"
 has_script: false

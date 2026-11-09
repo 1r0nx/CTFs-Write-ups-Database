@@ -62,8 +62,8 @@ int main(int argc, char **argv)
 5. Remote service directly returns the flag (`sigpwny{thanks_thomas}`) as soon as `target == 0xdeadbeef`.
 
 ## Solve script
-Script path: `scripts/challenge_prompt.c`
-Script path: `scripts/solve.py`
+Script path: [`scripts/challenge_prompt.c`](scripts/challenge_prompt.c)
+Script path: [`scripts/solve.py`](scripts/solve.py)
 
 ## Flag
 sigpwny{thanks_thomas}

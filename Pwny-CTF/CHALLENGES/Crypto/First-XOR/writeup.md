@@ -5,7 +5,7 @@ category: "crypto"
 difficulty: "Not specified"
 points: 50
 techniques: ["xor-cipher", "prng-mt19937", "encoding"]
-tools: []
+tools: ["python"]
 keywords: ["First-XOR", "Pwny-CTF", "crypto", "xor-cipher", "prng-mt19937", "encoding", "xor", "hex"]
 status: "solved"
 has_script: false

@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 20
-techniques: []
+techniques: ["misc"]
 tools: ["netcat"]
 keywords: ["netcat", "Pwny-CTF", "misc", "tcp"]
 status: "solved"

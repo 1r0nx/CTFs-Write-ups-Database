@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "reverse"
 difficulty: "Not specified"
 points: 150
-techniques: []
+techniques: ["reverse-engineering"]
 tools: ["pwntools", "netcat", "python"]
 keywords: ["2-asm-leaver", "Pwny-CTF", "reverse", "pwntools", "netcat", "python", "syscall"]
 status: "solved"
@@ -40,7 +40,7 @@ The program sets up the code to run a little bit of assembly! Use pwntools to se
 3. `io.send(code)`. → `My partner exited with: 42` + flag.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{leaving_so_soon_with_a_syscall?}

@@ -46,7 +46,7 @@ Challenge **Log-Jam** from the hiCTF CTF, crypto category. Main technique: diffi
 | 6 | Candidate keys + `decrypt_and_verify` | Tag accepted for **`key = SHA-256(str(x))`** → flag |
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{W0W1_y0u_4ctu4a11y_s01v3d_1t_ju}

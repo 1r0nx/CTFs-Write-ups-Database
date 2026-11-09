@@ -83,7 +83,7 @@ The real danger is not the overflow itself, but what the program does **after**:
 `all_leaks = [hex(i) for i in all_leaks]` transformed the list of integers into a list of **text strings**, so `all_leaks[-2]` became a `str` instead of a `int`. `p64()` requires a real integer → `struct.error: required argument is not an integer`. Correction: never reassign `all_leaks` with `hex()`, make the display readable on a separate variable (`log.info([hex(i) for i in all_leaks])`).
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{the_only_safe_code_is_no_code}

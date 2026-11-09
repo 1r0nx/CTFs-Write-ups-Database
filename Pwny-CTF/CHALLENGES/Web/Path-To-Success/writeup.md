@@ -45,7 +45,7 @@ In the **HTML source** of the page (`curl` / inspector), two comments:
 → `sigpwny{f1nD_y0Ur_sU$s3$s}`.
 
 ## Solve script
-Script path: `scripts/solve.sh`
+Script path: [scripts/solve.sh](scripts/solve.sh)
 
 ## Flag
 sigpwny{f1nD_y0Ur_sU$s3$s}

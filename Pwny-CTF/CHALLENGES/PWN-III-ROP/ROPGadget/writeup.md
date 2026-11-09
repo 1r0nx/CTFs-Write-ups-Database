@@ -53,7 +53,7 @@ Use [ROPgadget](https://github.com/JonathanSalwan/ROPgadget) to automatically ge
 4. **Payload**: `b'A'*40 + <ropchain>`, sent with `sla(b"name?", p)` → shell → `cat flag.txt`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{getting_the_hang_of_rop}

@@ -49,7 +49,7 @@ sla(b"?", payload)
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{your_exploit_is_very_cool!}

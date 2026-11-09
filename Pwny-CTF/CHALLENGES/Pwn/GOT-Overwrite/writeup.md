@@ -79,7 +79,7 @@ Flag: `sigpwny{you_GOT_to_find_that_one_gadget!}`.
 - **Trigger**: a write-what-where is not enough, the program must **re-borrow** the diverted box (here `puts`) after writing.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{you_GOT_to_find_that_one_gadget!}

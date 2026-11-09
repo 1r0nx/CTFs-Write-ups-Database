@@ -133,7 +133,7 @@ mov eax,0x3c ; xor rdi,rdi ; syscall                                ; exit(0)
 Running the binary therefore does NOT display the flag. You must read the calculated buffer `output`. Unicorn 2.1.2 does not support `pext`/`pdep`, so we reimplement the logic in Python (or we patch the `write` to point to 0x402018, or we execute on a BMI2 CPU after repointing).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 battleCTF{DespairEnergy}

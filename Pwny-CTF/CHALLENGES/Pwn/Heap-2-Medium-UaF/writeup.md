@@ -156,7 +156,7 @@ shell
 ---
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{UaF_in_the_d0cum3nt5_t4bl3??!!Wow_i_d1dnt_se3_that_0n3_c0m1ng!}

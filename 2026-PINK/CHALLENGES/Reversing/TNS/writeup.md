@@ -5,7 +5,7 @@ category: "reverse"
 difficulty: "Not specified"
 points: 25
 techniques: ["substitution-cipher"]
-tools: []
+tools: ["python"]
 keywords: ["TNS", "PINK", "reverse", "substitution-cipher", "zip", "https", "got"]
 status: "solved"
 has_script: false

@@ -45,8 +45,8 @@ Two reimbursement paths share the **same** signature check, and the digest binds
 - `disburse()`: pay (`recipient.call{value:amount}`) **before** `voucherUsed[digest]=true` → **reentrancy**. A single voucher (1 ETH) is replayed in a loop until `voucherUsed` is placed.
 
 ## Solve script
-Script path: `scripts/exploit.py`
-Script path: `scripts/poc_local.py`
+Script path: [scripts/exploit.py](scripts/exploit.py)
+Script path: [scripts/poc_local.py](scripts/poc_local.py)
 
 ## Flag
 hiCTF{one_sig_two_paths_then_the_l00p_3e38d3865e}

@@ -95,7 +95,7 @@ if (number != 0xdeadbeef) print_flag();   // display flag.txt
 - Personal template: pwny.py (in the rest of the method).
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{hmm_gets_seems_a_little_unsafe}

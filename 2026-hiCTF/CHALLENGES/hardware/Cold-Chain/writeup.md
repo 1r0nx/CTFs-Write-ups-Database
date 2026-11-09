@@ -45,9 +45,9 @@ ColdLink CaseManager CM-900 refrigeration controller. All boxes are blocked in c
 **ICS/SCADA: persistence automation.** A `S9 force_defrost` schedule forces defrost; the **macro M2 `ensure_schedule` (period=90s, target=S9)** **reactivates** it constantly. Deleting/deactivating S9 alone does not work (the macro restores it in ≤90 s). Fix = **disable M2 first**, then disable S9.
 
 ## Solve script
-Script path: `scripts/clmp.py`
-Script path: `scripts/coldlink_tech.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/clmp.py](scripts/clmp.py)
+Script path: [scripts/coldlink_tech.py](scripts/coldlink_tech.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{cold_chain_restored_defrost_cleared_ee8e33bfcc}

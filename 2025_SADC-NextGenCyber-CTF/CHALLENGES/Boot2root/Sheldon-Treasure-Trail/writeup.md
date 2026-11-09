@@ -5,7 +5,7 @@ category: "Boot2root"
 difficulty: "Not specified"
 points: 0
 techniques: ["rfi", "web"]
-tools: []
+tools: ["gobuster"]
 keywords: ["boot2root", "sheldon", "trail", "treasure"]
 status: "solved"
 has_script: false

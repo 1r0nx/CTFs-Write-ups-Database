@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics", "web"]
-tools: []
+tools: ["python"]
 keywords: ["forensics", "sound"]
 status: "solved"
 has_script: false
@@ -32,7 +32,7 @@ See the original challenge files and images in this directory.
 
 We are give this file for the challenge
 
-[Note.txt](Sound/Note.txt)
+[Note.txt](Note.txt)
 
 The file is a hexdump. I wrote a python script to recover the file with the dump
 

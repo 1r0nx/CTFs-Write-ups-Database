@@ -56,7 +56,7 @@ while (1) {
 `greet()` does `printf(name)`: the entry becomes the **format string**. Since `flag` lives on the same stack, its bytes are among the arguments `printf` believes it received.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [`scripts/pwny.py`](scripts/pwny.py)
 
 ## Flag
 sigpwny{pwn3d!}

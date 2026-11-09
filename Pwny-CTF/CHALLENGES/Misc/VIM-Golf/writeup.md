@@ -48,8 +48,8 @@ q                 " end of the macro (we now have 2 lines)
 Hex to submit: `69312068656c6c6f1b7171597001713740713a7771206f75742e7478740d`
 
 ## Solve script
-Script path: `scripts/chal.sh`
-Script path: `scripts/solve.py`
+Script path: [scripts/chal.sh](scripts/chal.sh)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{v1m_i5_qu17e_c0mp4c7}

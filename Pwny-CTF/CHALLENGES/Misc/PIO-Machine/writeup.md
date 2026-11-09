@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "easy"
 points: 350
-techniques: []
+techniques: ["crypto", "password-cracking", "reverse-engineering", "web-exploitation"]
 tools: ["tar", "gcc", "python"]
 keywords: ["PIO-Machine", "Pwny-CTF", "misc", "tar", "gcc", "python", "https", "oracle"]
 status: "solved"
@@ -40,8 +40,8 @@ Same game as [[Haybales]] (same `code.tar.gz`, “Deere Game”): this is the **
 3. **Brute force** of the 2^32 keys in C (`work/pio_brute.c`, ~50 s, shift-left by default), then decryption of each candidate by `SHA-256(key_le)[:27] ⊕ encoded`: only the good key (`0x8661eb95`) gives an ASCII text → the flag.
 
 ## Solve script
-Script path: `scripts/pio_brute.c`
-Script path: `scripts/solve.py`
+Script path: [scripts/pio_brute.c](scripts/pio_brute.c)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{th3_pio_1s_4w3s0m3}

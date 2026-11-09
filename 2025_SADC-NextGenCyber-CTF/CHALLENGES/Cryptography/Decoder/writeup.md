@@ -5,7 +5,7 @@ category: "Cryptography"
 difficulty: "Not specified"
 points: 0
 techniques: ["crypto"]
-tools: []
+tools: ["cyberchef", "python"]
 keywords: ["cryptography", "decoder"]
 status: "solved"
 has_script: false

@@ -42,7 +42,7 @@ flag = sigpwny{thank_you_for_the_fish!!!}
 (Alternative brute force: 26^5 ≈ 11.9 M keys, filter those giving printable plaintext / starting with `sigpwny{`; known-plaintext is instantaneous and avoids that.)
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{thank_you_for_the_fish!!!}

@@ -57,8 +57,8 @@ See `work/solve.py`. Continuation: `recvuntil("Input > ")` → `parse_before()` 
 To reach `CHANGEME` (offset `before+4`) you need `len(resp) ≥ before+12`; but the overwriting starts from the **beginning**, so we necessarily pass **over `Beep`** → we are obliged to **rewrite it exactly**. By stopping right at `before+12`, `Borp` remains the original (via `buf[len(resp):]`) and does not have to be rewritten.
 
 ## Solve script
-Script path: `scripts/server.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/server.py](scripts/server.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{n0w_I_c@n_b0f_anyth1ng!}

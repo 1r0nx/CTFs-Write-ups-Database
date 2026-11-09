@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "pwn"
 difficulty: "Not specified"
 points: 150
-techniques: []
+techniques: ["password-cracking"]
 tools: ["netcat", "python"]
 keywords: ["Flag-Vault", "Pwny-CTF", "pwn", "netcat", "python"]
 status: "solved"
@@ -55,7 +55,7 @@ for i in range(len(user_pin)):
 A **correct** digit runs the loop for 10 M iterations (slow) before moving on to the next one; a **false** digit comes out immediately (fast). So **response time ∝ number of correct digits at the top**.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{b4d_t1ming_:(}

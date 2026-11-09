@@ -42,7 +42,7 @@ Algorithm:
 Result: `sigpwny{im_wiening_now}`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{im_wiening_now}

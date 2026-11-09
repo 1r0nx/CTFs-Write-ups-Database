@@ -47,8 +47,8 @@ fi
 The pattern bans `< > ( ) $ * |` and the letters `A`, `C`–`Z`, `a`, `c`–`z`. **Only `b` and `B` remain authorized** among the letters (and numbers, `/`, `?`,...).
 
 ## Solve script
-Script path: `scripts/main.sh`
-Script path: `scripts/solve.py`
+Script path: [scripts/main.sh](scripts/main.sh)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{Big_Brain_Bash_Bois}

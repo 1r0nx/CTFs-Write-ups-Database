@@ -66,7 +66,7 @@ gets(name);           // no size limit
 Unlike Bug Bounty 1/2, the program no longer tests a neighboring variable: there is **no more condition at all**. The only way to get the flag is to hijack the execution flow so that it jumps to `print_flag()`, which exists in the binary but is never called.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{return_to_the_basics}

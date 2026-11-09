@@ -4,7 +4,7 @@ ctf: "Root-Me"
 category: "network"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["forensics"]
 tools: ["audacity"]
 keywords: ["RF-AM-Transmission", "Root-Me", "network", "audacity"]
 status: "solved"

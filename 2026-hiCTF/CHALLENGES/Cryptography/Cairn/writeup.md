@@ -50,10 +50,10 @@ Challenge **Cairn** from the hiCTF CTF, crypto category. Main technique: ellipti
 5. PGCD **without division** (pseudo-remainders: on a field the coefficients do not increase) → a single inversion at the end.
 
 ## Solve script
-Script path: `scripts/cairn.c`
-Script path: `scripts/decrypt.py`
-Script path: `scripts/gen.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/cairn.c](scripts/cairn.c)
+Script path: [scripts/decrypt.py](scripts/decrypt.py)
+Script path: [scripts/gen.py](scripts/gen.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{w41k_th3_sup3rs1n9u14r_l46yr1ntH}

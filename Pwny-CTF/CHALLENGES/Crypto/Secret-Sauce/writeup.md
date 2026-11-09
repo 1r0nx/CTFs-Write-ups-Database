@@ -57,8 +57,8 @@ c0 ⊕ ci = M(p0) ⊕ M(pi) = M(p0 ⊕ pi)   ⟹   pi = p0 ⊕ M⁻¹(c0 ⊕ ci)
 **No need for the key!** We know `p0 = "Secret Sauce: "` (1st block) and all `ci`.
 
 ## Solve script
-Script path: `scripts/aes.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/aes.py](scripts/aes.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{a3s_w1thOut_s4UC3b0x_b3_l1k3__4f605d23b07ed32388bbe5fe4202281ce2db154394a6b5cdd4270468c8bbced0}

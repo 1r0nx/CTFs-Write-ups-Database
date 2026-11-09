@@ -49,7 +49,7 @@ Report Builder: login, save a branding config (deep-merge), render a live previe
 `work/solve.sh`: login → pollution `constructor.prototype.formula` → preview, reads the result in the `computed` div.
 
 ## Solve script
-Script path: `scripts/solve.sh`
+Script path: [scripts/solve.sh](scripts/solve.sh)
 
 ## Flag
 hiCTF{pr0to_pollution_to_cust0m_new_Function_gadget_rce_1259ce2d45}

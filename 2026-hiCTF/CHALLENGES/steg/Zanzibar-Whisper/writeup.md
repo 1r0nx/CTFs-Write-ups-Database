@@ -4,7 +4,7 @@ ctf: "2026-hiCTF"
 category: "stego"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["steganography"]
 tools: []
 keywords: ["Zanzibar-Whisper", "hiCTF", "stego"]
 status: "solved"

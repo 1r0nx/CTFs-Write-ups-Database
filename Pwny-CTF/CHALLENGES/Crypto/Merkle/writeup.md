@@ -46,7 +46,7 @@ s = B^a mod p
 The first 16 digits of `s` result in `sigpwny{1479671363201260}`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{1479671363201260}

@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics"]
-tools: []
+tools: ["python"]
 keywords: ["baby", "forensics", "serial"]
 status: "solved"
 has_script: false

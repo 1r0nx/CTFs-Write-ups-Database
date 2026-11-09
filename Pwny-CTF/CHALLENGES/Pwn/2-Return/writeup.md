@@ -63,7 +63,7 @@ nm challenge | grep print_flag          # fixed address (PIE number)
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{the_stack_is_the_control_flow}

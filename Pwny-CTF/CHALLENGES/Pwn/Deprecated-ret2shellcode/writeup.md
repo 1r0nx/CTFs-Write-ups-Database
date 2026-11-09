@@ -52,7 +52,7 @@ sl(payload)
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{can_this_pwn_series_get_any_harder?}

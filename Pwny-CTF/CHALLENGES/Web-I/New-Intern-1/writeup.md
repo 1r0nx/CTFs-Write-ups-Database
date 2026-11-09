@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "web"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["hash-cracking", "web-exploitation"]
 tools: ["curl"]
 keywords: ["New-Intern-1", "Pwny-CTF", "web", "curl", "http"]
 status: "solved"

@@ -36,7 +36,7 @@ Not specified.
 3. Decode — `echo "ZmxhZ3tIYW1tMG5kXzFzX0F3M3MwbTN9" | base64 -d` → `flag{Hamm0nd_1s_Aw3s0m3}`.
 
 ## Solve script
-Script path: `scripts/index.php`
+Script path: [scripts/index.php](scripts/index.php)
 
 ## Flag
 flag{Hamm0nd_1s_Aw3s0m3}

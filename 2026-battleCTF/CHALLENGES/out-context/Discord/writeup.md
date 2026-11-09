@@ -4,7 +4,7 @@ ctf: "2026-battleCTF"
 category: "misc"
 difficulty: "Not specified"
 points: 4
-techniques: []
+techniques: ["misc"]
 tools: []
 keywords: ["Discord", "battleCTF", "misc"]
 status: "solved"

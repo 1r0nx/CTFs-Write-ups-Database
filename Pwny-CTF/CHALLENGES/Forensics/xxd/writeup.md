@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "forensics"
 difficulty: "Not specified"
 points: 20
-techniques: []
+techniques: ["forensics"]
 tools: ["xxd"]
 keywords: ["xxd", "Pwny-CTF", "forensics"]
 status: "solved"

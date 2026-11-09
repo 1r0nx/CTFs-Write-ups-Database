@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["lfi"]
 tools: []
 keywords: ["the-library-2", "Pwny-CTF", "misc"]
 status: "solved"

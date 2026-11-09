@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "web"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["encoding", "web-exploitation"]
 tools: ["curl"]
 keywords: ["Inspect-Me-7", "Pwny-CTF", "web", "curl", "http"]
 status: "solved"

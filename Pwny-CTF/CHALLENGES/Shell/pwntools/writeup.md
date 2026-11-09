@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 75
-techniques: []
+techniques: ["misc"]
 tools: ["pwntools", "netcat", "python"]
 keywords: ["pwntools", "Pwny-CTF", "misc", "netcat", "python"]
 status: "solved"
@@ -68,8 +68,8 @@ open("magic_words.txt","a").write(new + "\n")
 - **`EOFError`** on `sendlineafter` = the socket is **closed** (bad word replayed → Goodbye, or flag already given): there is no more prompt to wait for.
 
 ## Solve script
-Script path: `scripts/dist.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/dist.py](scripts/dist.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{this_makes_me_feel_like_a_bot}

@@ -63,7 +63,7 @@ except (TypeError, LookupError):
 - **NFKC bypass**: reusable on any Jinja sandbox ≤3.1.x where no normalization is done before `is_safe_attribute`, **if** we can inject a non-ASCII key (here via Tag + escapes).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{__^_^__n0rm4l1z3_b3f0r3_y0u_tru5t__>_<___7e0dc87df5}

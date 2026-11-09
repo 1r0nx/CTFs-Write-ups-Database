@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 100
-techniques: []
+techniques: ["aes", "crypto"]
 tools: ["pwntools", "netcat", "python"]
 keywords: ["VIM-Quiz", "Pwny-CTF", "misc", "pwntools", "netcat", "python"]
 status: "solved"
@@ -35,7 +35,7 @@ Not specified.
 Interactive quiz (`nc chal.sigpwny.com 5094`): 4 questions on VIM shortcuts. Response format: a key combination = modifier + `-` (e.g. Ctrl+[ → `c-[`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{v1m_h4s_a_5hall0w_l3arn1ng_curv3}

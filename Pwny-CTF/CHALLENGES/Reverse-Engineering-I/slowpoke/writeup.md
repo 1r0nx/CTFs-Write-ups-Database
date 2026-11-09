@@ -35,7 +35,7 @@ There are almost enough numbers to make this a crypto chal.
 5. Result: `sigpwny{try_3v3ry_l3t7er}` — the flag name describes the *intended* solution (letter-by-letter brute-force), which direct inversion makes useless.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{try_3v3ry_l3t7er}

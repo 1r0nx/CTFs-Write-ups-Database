@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 20
-techniques: []
+techniques: ["aes"]
 tools: []
 keywords: ["Shell-Basics-3-Terminate", "Pwny-CTF", "misc"]
 status: "solved"

@@ -68,7 +68,7 @@ Canary at offset 64 returned identically (checked at state 9 before the epilogue
 The remote service is behind **socat** → its `read()` on pipe can return a **partial read**: if the 108 bytes do not arrive in one block, the canary is not rewritten → `__stack_chk_fail`. The solve retries until you see “Message received. ". Flag in env variable `FLAG` (and `/flag/flag.txt`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{c9a9816576849a4aae690a65c1fba37d}

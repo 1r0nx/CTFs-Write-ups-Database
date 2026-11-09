@@ -49,7 +49,7 @@ Not specified.
 - Last layer: image with the flag in **steganography** (zsteg/LSB) rather than written in plain text.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 flag{b33n_h3r3_all_al0ng}

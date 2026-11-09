@@ -5,7 +5,7 @@ category: "Serie"
 difficulty: "Not specified"
 points: 0
 techniques: ["web"]
-tools: []
+tools: ["binwalk", "foremost", "python", "unzip"]
 keywords: ["echoes", "of", "scroll", "serie", "the"]
 status: "solved"
 has_script: false
@@ -100,7 +100,7 @@ And used the new wordlist to try to crack the zip file this time.
 
 But the generated wordlist still did not worked. When I reopened the file the CTF maker send to us I saw this
 
-![WhatsApp Image 2025-11-06 at 15.20.05.jpeg](img/WhatsApp_Image_2025-11-06_at_15.20.05%201.jpeg)
+![WhatsApp Image 2025-11-06 at 15.20.05.jpeg](img/WhatsApp_Image_2025-11-06_at_15.20.05_1.jpeg)
 
 This is the content of the file “cup.cfg” from the CUPP script. This set the password lenght to be 20-30 characters long and that make sense because on the tumblr link we found earlier we had this
 

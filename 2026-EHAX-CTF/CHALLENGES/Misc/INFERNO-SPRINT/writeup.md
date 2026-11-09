@@ -5,7 +5,7 @@ category: "Misc"
 difficulty: "Not specified"
 points: 0
 techniques: ["misc", "pwn"]
-tools: []
+tools: ["python"]
 keywords: ["inferno", "misc", "sprint"]
 status: "solved"
 has_script: false

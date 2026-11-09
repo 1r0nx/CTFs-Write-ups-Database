@@ -4,8 +4,8 @@ ctf: "Pwny-CTF"
 category: "forensics"
 difficulty: "Not specified"
 points: 100
-techniques: []
-tools: []
+techniques: ["forensics"]
+tools: ["python"]
 keywords: ["Make-a-Difference", "Pwny-CTF", "forensics"]
 status: "solved"
 has_script: false

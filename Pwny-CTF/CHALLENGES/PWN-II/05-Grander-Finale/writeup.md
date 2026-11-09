@@ -65,7 +65,7 @@ payload = fmtstr_payload(OFFSET, {saved_rip_addr: PRINT_FLAG_ADDR & 0xffffffff},
 Payload **40-48 bytes**, always < 63. Verified: write low-32 → exact value of `print_flag` (GDB), and length < 64 on 2000/2000 simulated pulls.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [`scripts/solve.py`](scripts/solve.py)
 
 ## Flag
 sigpwny{binary_expl0itat1on_m4ster}

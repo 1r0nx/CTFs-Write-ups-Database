@@ -4,7 +4,7 @@ ctf: "Root-Me"
 category: "pwn"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["pwn"]
 tools: ["python"]
 keywords: ["ELF-x86-Stack-buffer-overflow-basic-1", "Root-Me", "pwn", "python"]
 status: "solved"
@@ -27,7 +27,7 @@ Not specified.
 Not specified.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 1w4ntm0r3pr0np1s

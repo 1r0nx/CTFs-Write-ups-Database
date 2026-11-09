@@ -42,7 +42,7 @@ Note: Discord uses format `username#dddd`, where `d` is a digit `[0-9]`.
 3. `solve.py` script: for each nickname, test the 10,000 combinations `pseudo#0000`..`pseudo#9999`, calculate the SHA-512 and compare to the target → found `WhiteHoodHacker#8390`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 WhiteHoodHacker#8390

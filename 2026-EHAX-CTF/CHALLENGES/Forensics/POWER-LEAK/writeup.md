@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics"]
-tools: []
+tools: ["python"]
 keywords: ["forensics", "leak", "power"]
 status: "solved"
 has_script: false
@@ -32,7 +32,7 @@ See the original challenge files and images in this directory.
 
 The start of the .csv file given for the chall
 
-![image.png](img/image%201.png)
+![image.png](img/image_1.png)
 
 Script to find the highest numbers
 

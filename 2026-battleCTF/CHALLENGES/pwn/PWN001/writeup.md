@@ -91,9 +91,9 @@ Full RELRO · NX · **Canary** · **No PIE** · libc Debian glibc 2.42 (provided
 - Note on EFAULT: if size crosses the guard page, write returns 0 (empty output) -> we reduce the size (this is the role of decreasing scanning).
 
 ## Solve script
-Script path: `scripts/exp.py`
-Script path: `scripts/exploit.py`
-Script path: `scripts/pwny.py`
+Script path: [scripts/exp.py](scripts/exp.py)
+Script path: [scripts/exploit.py](scripts/exploit.py)
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 CTF{ee6c8e12d8a68dcd220ebe010e2cfa4b}

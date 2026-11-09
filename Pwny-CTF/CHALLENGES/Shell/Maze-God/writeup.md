@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "hard"
 points: 500
-techniques: []
+techniques: ["reverse-engineering"]
 tools: ["pwntools", "netcat", "python"]
 keywords: ["Maze-God", "Pwny-CTF", "misc", "pwntools", "netcat", "python"]
 status: "solved"
@@ -52,8 +52,8 @@ Not specified.
 - Larger noisy/maze input format → robust parsing + BFS/A*.
 
 ## Solve script
-Script path: `scripts/server.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/server.py](scripts/server.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{th3s3u5_b3at_de@da1us_gG}

@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics", "sql", "web"]
-tools: []
+tools: ["gobuster", "nmap", "sqlmap"]
 keywords: ["activities", "forensics", "suspicious", "web"]
 status: "solved"
 has_script: false
@@ -43,7 +43,7 @@ Flag format: `SADC{1_2_3_4_5_6}`
 
 Here is the file we get from the challenge
 
-[access.log](Suspicious%20Web%20Activities/access.log)
+[access.log](access.log)
 
 By analysing the log file here are the results
 

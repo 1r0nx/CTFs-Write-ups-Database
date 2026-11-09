@@ -37,8 +37,8 @@ Just created my own flag generator in python! Just run it to get the flag!
 5. Run the corrected version (`solve.py`) → flag displayed instantly.
 
 ## Solve script
-Script path: `scripts/magic.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/magic.py](scripts/magic.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{catatonically_slow_calculation}

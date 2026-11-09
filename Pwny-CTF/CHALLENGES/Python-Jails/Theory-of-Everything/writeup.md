@@ -49,7 +49,7 @@ Details that make this possible:
 - **`input()` only reads ONE line**, and the encoding declaration must be on a **separate** line from the body. We separate with `\r` (carriage return): it is a line separator for the Python tokenizer, it is in `string.whitespace` (therefore authorized), and `input()` does not stop on it (it stops at `\n`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{encodings_are_fun!}

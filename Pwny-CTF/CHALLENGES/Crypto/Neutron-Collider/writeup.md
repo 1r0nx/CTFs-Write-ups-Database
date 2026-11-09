@@ -51,7 +51,7 @@ printf 'sigpwny{' > prefix.bin
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{md5_is_broken_and_now_im_broke__unguessable_l33t}

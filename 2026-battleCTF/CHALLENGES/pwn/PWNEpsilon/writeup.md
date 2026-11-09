@@ -75,8 +75,8 @@ To validate a RISC-V chain blindly: **replace the final target with `vuln` (0x10
 - Script: `work/solve.py` (`--remote`). Tools: `work/rvgadget.py` (RISC-V capstone finder).
 
 ## Solve script
-Script path: `scripts/rvgadget.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/rvgadget.py](scripts/rvgadget.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{d45cfcb9f43f7d1a28b2f678b0b5c72f}

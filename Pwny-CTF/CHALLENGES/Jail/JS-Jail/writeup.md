@@ -41,8 +41,8 @@ Server `nc chal.sigpwny.com 7009`, `chal.js` provided:
 4. Send with **pwntools** (payload too long for raw nc): `io.sendlineafter(b'... ', msg)` then `io.interactive()`. Script: `work/solve.py`.
 
 ## Solve script
-Script path: `scripts/chal.js`
-Script path: `scripts/solve.py`
+Script path: [scripts/chal.js](scripts/chal.js)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{over_one_billion_websites_use_javascript}

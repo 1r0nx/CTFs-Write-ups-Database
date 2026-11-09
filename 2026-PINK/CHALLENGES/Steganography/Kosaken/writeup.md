@@ -4,7 +4,7 @@ ctf: "2026-PINK"
 category: "stego"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["crypto", "steganography"]
 tools: []
 keywords: ["Kosaken", "PINK", "stego"]
 status: "solved"

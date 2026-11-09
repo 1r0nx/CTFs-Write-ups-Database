@@ -72,8 +72,8 @@ cast call $SETUP "isSolved()(bool)" --rpc-url $RPC
 - `release()` is based on `msg.sender`. Logic installed via `upgradeTo` and executed in **delegatecall** sends the call to `release()` from the address **of the proxy** = `settlementSystem` → authorized.
 
 ## Solve script
-Script path: `scripts/exploit.py`
-Script path: `scripts/poc_local.py`
+Script path: [scripts/exploit.py](scripts/exploit.py)
+Script path: [scripts/poc_local.py](scripts/poc_local.py)
 
 ## Flag
 hiCTF{sl0t0_c0llision_then_a_qu1et_upgrade_fd75e36921}

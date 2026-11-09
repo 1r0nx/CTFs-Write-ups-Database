@@ -42,9 +42,9 @@ Not specified.
 5. Scripts: `work/extract_fw0835.py`, `work/decrypt_all.py`, `work/final_solve.py`, `work/firmware_0835.bin`.
 
 ## Solve script
-Script path: `scripts/decrypt_all.py`
-Script path: `scripts/extract_fw0835.py`
-Script path: `scripts/final_solve.py`
+Script path: [scripts/decrypt_all.py](scripts/decrypt_all.py)
+Script path: [scripts/extract_fw0835.py](scripts/extract_fw0835.py)
+Script path: [scripts/final_solve.py](scripts/final_solve.py)
 
 ## Flag
 hiCTF{c8c46fdbd6e5e4eacabfba53a156ff9ab10567f2}

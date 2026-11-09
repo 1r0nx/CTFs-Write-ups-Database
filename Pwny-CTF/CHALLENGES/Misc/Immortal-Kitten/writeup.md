@@ -40,7 +40,7 @@ Windows console game “NINE LIVES: A Cat's Tale”: survive 10 situations with 
 4. Reproduce in Python → readable flag (36 bytes).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{Wh47?_1mM0r74l_k177y_h4ck3r}

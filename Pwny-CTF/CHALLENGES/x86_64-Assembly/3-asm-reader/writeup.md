@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "reverse"
 difficulty: "Not specified"
 points: 200
-techniques: []
+techniques: ["reverse-engineering"]
 tools: ["netcat", "python"]
 keywords: ["3-asm-reader", "Pwny-CTF", "reverse", "netcat", "python", "syscall"]
 status: "solved"
@@ -41,7 +41,7 @@ Not specified.
 3. `mov rsi, 0x123412340000` = immediate 64 bits (10 bytes), short remainder. → the flag is printed on our socket.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{now_we_are_reading_with_numbers}

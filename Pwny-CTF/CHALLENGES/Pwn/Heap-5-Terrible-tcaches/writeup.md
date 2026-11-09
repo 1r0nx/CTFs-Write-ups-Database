@@ -163,8 +163,8 @@ You need a **write primitive in a freed chunk**. The changelog blows it away:
 - **Harder variant (competitive CTF)**: glibc **≥ 2.32** → safe-linking ⇒ it would first be necessary to leak the heap** to forge `fd = target ^ (chunk >> 12)`. Full RELRO ⇒ GOT read-only ⇒ aim instead for `__free_hook` / `__malloc_hook` (≤ 2.33) or the *exit handler* `_IO`/`__run_exit_handlers`. No `leak_system` offered ⇒ leak the libc via an *unsorted bin* chunk (address `main_arena`).
 
 ## Solve script
-Script path: `scripts/pwny.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{ar3n't_tcach3s_just_y0ur_fav0r1t3_th1ng5????}

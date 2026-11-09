@@ -62,7 +62,7 @@ offset_browser(fmt="s", prompt=b"?\n", reconnect=True)
 - `%p` / `%lx` at the flag offset would display the **heap address**, not the text. It takes `%s` to **follow** the pointer to the characters.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{reading_down_the_stack}

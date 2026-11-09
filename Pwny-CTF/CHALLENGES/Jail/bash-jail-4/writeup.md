@@ -49,8 +49,8 @@ return set(letters_used) <= set(allowed_letters)   # only n, o, p allowed
 The filter only looks at the **letters [a-zA-Z]** present in the script (numbers, `/`, `?`, space, `.` are free).
 
 ## Solve script
-Script path: `scripts/run.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/run.py](scripts/run.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{python_and_bash_jail_combo}

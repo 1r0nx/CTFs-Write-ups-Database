@@ -43,7 +43,7 @@ flag     : hiCTF{sh1ft1ng_7hr0ugh_7h3_b4s3s}
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{sh1ft1ng_7hr0ugh_7h3_b4s3s}

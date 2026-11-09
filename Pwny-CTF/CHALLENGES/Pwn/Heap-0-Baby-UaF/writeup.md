@@ -63,8 +63,8 @@ free(users[arg1]);     //... but users[arg1] IS NOT reset to NULL -> UaF
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{us3_4ft3r_fre3_m0re_like_fre3_flags_for_m3}

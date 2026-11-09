@@ -73,7 +73,7 @@ ae045988164c448a8e560c5292da7f1722a9c9018e15cb606e10ebb2a27c5944
 - Line lengths: 179 = 5,4,8,23,5.7 · 180 = 7,4,7,23,4.6 · 181 = 8,8,24.5 · 182 = 6,4,6.5.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{n3w_ar34_fOr_hid!ng_d4t4_n4m3d_TJ}

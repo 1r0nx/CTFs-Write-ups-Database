@@ -5,7 +5,7 @@ category: "Misc"
 difficulty: "Not specified"
 points: 0
 techniques: ["misc", "reverse"]
-tools: []
+tools: ["python", "tshark", "wireshark"]
 keywords: ["breathing", "misc", "void"]
 status: "solved"
 has_script: false
@@ -38,7 +38,7 @@ With this command we get some interesting results
 capsinfo Breathing_Void.pcap
 ```
 
-![image.png](img/image%201.png)
+![image.png](img/image_1.png)
 
 3 files have been merged to form this dump. The third file is what we are looking for. 
 
@@ -52,7 +52,7 @@ tshark -r Breathing_Void.pcap -Y "frame.interface_id==2" -w covert_only.pcap
 
 The new file looks like this in wireshark
 
-![image.png](img/image%202.png)
+![image.png](img/image_2.png)
 
 But here there is something interesting. The time looks too much precise. Usually it’s not that much precise. So I extracted the timestamp difference between two consecutives packets to see what it look like with:
 
@@ -62,7 +62,7 @@ tshark -r covert_only.pcap -T fields -e frame.time_delta > times.txt
 
 Here start of the content of time.txt
 
-![image.png](img/image%203.png)
+![image.png](img/image_3.png)
 
 We can see that we get only two distinct values. Let’s consider one of them as 0 and the other one as 1, extract the list of 0 and 1, cut it into 8 bits and convert in text.
 
@@ -124,7 +124,7 @@ solve_final_push("times.txt")
 
 This script gives this output:
 
-![image.png](img/image%204.png)
+![image.png](img/image_4.png)
 
 Here is the script that gives the flag:
 

@@ -50,7 +50,7 @@ exec(user_input)
 Comparison in lowercase → you can't fool with case. Many special characters banned (`_. ": * $...`), but **neither `breakpoint`, nor `(` `)`**.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{who_needs_special_chars_anyways}

@@ -45,7 +45,7 @@ I prevent you from using syscall by checking if `\x0f\x05` is in your input. But
 4. `assert b"\x0f\x05" not in code` before sending (guaranteed to pass `check`). 44 bytes.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{code_is_data_is_code_is_data}

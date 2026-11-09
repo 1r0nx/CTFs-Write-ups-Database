@@ -123,7 +123,7 @@ Two faults:
 - Same filter={}, filter={"subject":{"$exists":true}}, filter={"$where":"return true"}
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{a1428a3ae5db7d74d6c6d1eab1c6296f}

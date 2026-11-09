@@ -56,7 +56,7 @@ Challenge **Hollow-Reserve** from the hiCTF CTF, blockchain category. Main techn
 The price oracle of the facility = **spot of a tiny pool** (POOL1: 100k/1k). Trivially manipulable spot ⇒ overvalued collateral ⇒ massive borrowing. A **flash loan** provides the capital to pump the pool for the duration of a block.
 
 ## Solve script
-Script path: `scripts/exploit.py`
+Script path: [scripts/exploit.py](scripts/exploit.py)
 
 ## Flag
 hiCTF{th1n_p00l_was_the_r3al_0racle}

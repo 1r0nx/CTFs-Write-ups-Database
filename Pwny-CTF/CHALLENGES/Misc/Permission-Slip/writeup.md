@@ -39,7 +39,7 @@ Windows console game “SYSTEM BREACH”: hack 5 systems, but **all options fail
    - `flag[i] = ciphertext[i] XOR key[i & 7]`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{4cc3ss_Gr4nt3d_W3_4r3_In}

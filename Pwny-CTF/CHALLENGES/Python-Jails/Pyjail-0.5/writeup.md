@@ -45,7 +45,7 @@ eval(user_input)                    # eval, not exec
 Two constraints: `eval` only accepts one **expression** (no `import os`), and we cannot write `flag`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{but_but_i_used_eval_what_nooooo}

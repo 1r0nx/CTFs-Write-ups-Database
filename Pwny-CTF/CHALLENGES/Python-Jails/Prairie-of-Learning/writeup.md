@@ -58,7 +58,7 @@ __import__('sys')._getframe(1).f_locals['quiz_question_answer']
 `eval` calculates it → it is exactly worth `quiz_question_answer` → `n == quiz_question_answer` → score 3/3. (Redirecting `sys.stdout` to `StringIO` just prevents printing the flag *directly*; it does not prevent reading the variable.)
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{studying_must_have_paid_off}

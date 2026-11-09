@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 30
-techniques: []
+techniques: ["crypto"]
 tools: ["netcat"]
 keywords: ["A-Very-Special-Character-2", "Pwny-CTF", "misc", "netcat"]
 status: "solved"

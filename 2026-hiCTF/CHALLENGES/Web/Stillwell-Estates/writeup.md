@@ -71,7 +71,7 @@ Successive absolute readings:
    ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{s1l3nt_l4n73rn_3573735_12081388db}

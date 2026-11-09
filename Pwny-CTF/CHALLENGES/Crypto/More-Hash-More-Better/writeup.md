@@ -51,7 +51,7 @@ for c in flag:
 → `hashes.txt` = one hash line per flag character. The charset is **known and small** (`a-zA-Z0-9{}_`, ~64 characters).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{H45hbr0wn5_4r3_t45ty}

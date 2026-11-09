@@ -42,18 +42,18 @@ The PIO program (`simple_pio`) processes 8 times 4 bits of the OSR (`out(x,1)` +
 We **brute force the 2^32 values** in C (PIO emulation, ~50 s on 8 cores), testing both shift directions (OUT/IN) because MicroPython allows both. Then we **decrypt each candidate** via SHA-256 ⊕ `encoded`: only the real `key` gives readable text → `key = 0x8661eb95` (shift-left for OUT and IN = MicroPython default).
 
 ## Solve script
-Script path: `scripts/badgeio.py`
-Script path: `scripts/battle_state.py`
-Script path: `scripts/deere_chal.py`
-Script path: `scripts/menu.py`
-Script path: `scripts/pwnymon.py`
-Script path: `scripts/sao.py`
-Script path: `scripts/sao_util.py`
-Script path: `scripts/solve.py`
-Script path: `scripts/ssd1306.py`
-Script path: `scripts/stats.py`
-Script path: `scripts/utils.py`
-Script path: `scripts/welcome.py`
+Script path: [scripts/badgeio.py](scripts/badgeio.py)
+Script path: [scripts/battle_state.py](scripts/battle_state.py)
+Script path: [scripts/deere_chal.py](scripts/deere_chal.py)
+Script path: [scripts/menu.py](scripts/menu.py)
+Script path: [scripts/pwnymon.py](scripts/pwnymon.py)
+Script path: [scripts/sao.py](scripts/sao.py)
+Script path: [scripts/sao_util.py](scripts/sao_util.py)
+Script path: [scripts/solve.py](scripts/solve.py)
+Script path: [scripts/ssd1306.py](scripts/ssd1306.py)
+Script path: [scripts/stats.py](scripts/stats.py)
+Script path: [scripts/utils.py](scripts/utils.py)
+Script path: [scripts/welcome.py](scripts/welcome.py)
 
 ## Flag
 sigpwny{m1cr0py7h0n_1s_c0ol}

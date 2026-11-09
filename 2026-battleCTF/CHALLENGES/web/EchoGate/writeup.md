@@ -66,7 +66,7 @@ X<SMUGGLED REQUEST>
 `/admin/flag` (reached by smuggling) → `403 admin access requires internal origin`. The backend grants admin access if the request carries **`X-Forwarded-For: 127.0.0.1`** (it trusts the loopback declared in XFF). Other headers tested (`X-Internal`, `X-Real-IP`, `X-Origin`, `Host: localhost`, `X-Internal-Origin`…) → all 403. Only `X-Forwarded-For: 127.0.0.1` → **200 + flag**.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{12de61a5e5def6eb9d565836bd461566}

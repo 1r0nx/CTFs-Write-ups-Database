@@ -55,7 +55,7 @@ a settlement system is decommissioned; the operator deleted fields from the curr
 - **Note mask linked to `msg.sender`**: revealable for any offline caller (XOR), simply find the matching by searching for printable ASCII.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{pruned_storage_calldata_never_forgets}

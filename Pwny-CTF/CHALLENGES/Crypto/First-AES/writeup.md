@@ -5,7 +5,7 @@ category: "crypto"
 difficulty: "Not specified"
 points: 100
 techniques: ["aes-ctr", "xor-cipher", "encoding", "malware-analysis"]
-tools: []
+tools: ["python"]
 keywords: ["First-AES", "Pwny-CTF", "crypto", "aes-ctr", "xor-cipher", "encoding", "malware-analysis", "aes", "xor", "hex", "ctr", "padding"]
 status: "solved"
 has_script: false

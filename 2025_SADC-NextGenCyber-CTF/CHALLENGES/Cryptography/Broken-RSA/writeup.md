@@ -5,7 +5,7 @@ category: "Cryptography"
 difficulty: "Not specified"
 points: 0
 techniques: ["crypto", "rsa"]
-tools: []
+tools: ["python"]
 keywords: ["broken", "cryptography", "rsa"]
 status: "solved"
 has_script: false

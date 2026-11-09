@@ -56,8 +56,8 @@ map[write_index] = (tile_lu & 0x3f) | 0x40          #0x40 = “seen” bit; low 
 For `dy=6, dx=0`: desired offset `+144` → `(int8_t)144 = -112`. The writing lands **112 squares before** the base instead of 6 lines lower, and copies a passable ground value there.
 
 ## Solve script
-Script path: `scripts/sim.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/sim.py](scripts/sim.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{maze-warden-vault-seed-2026_c3345cf439}

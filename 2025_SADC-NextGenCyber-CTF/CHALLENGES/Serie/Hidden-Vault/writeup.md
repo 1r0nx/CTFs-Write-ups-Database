@@ -5,7 +5,7 @@ category: "Serie"
 difficulty: "Not specified"
 points: 0
 techniques: ["web"]
-tools: []
+tools: ["python"]
 keywords: ["hidden", "serie", "vault"]
 status: "solved"
 has_script: false

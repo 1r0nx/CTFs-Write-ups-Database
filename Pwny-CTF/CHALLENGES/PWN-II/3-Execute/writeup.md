@@ -78,7 +78,7 @@ io.interactive()
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{shell_code_is_data_is_shell_code}

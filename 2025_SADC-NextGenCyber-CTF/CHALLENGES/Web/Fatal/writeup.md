@@ -5,7 +5,7 @@ category: "Web"
 difficulty: "Not specified"
 points: 0
 techniques: ["lfi", "web"]
-tools: []
+tools: ["burp", "cyberchef", "strings"]
 keywords: ["fatal", "web"]
 status: "solved"
 has_script: false

@@ -42,7 +42,7 @@ Three small problems; everyone's answer is a **part of the combination** of the 
 Combination = **11, 112, 81**. ⚠️ This is **not** the flag: the description gives `nc chal.sigpwny.com 1991`. The combination is the **code to type in the remote trunk**; it is the **server** which returns the real `sigpwny{...}` once the correct code is given. (Trap experienced: 6 attempts refused by submitting `11_112_81` in all formats to CTFd.)
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{is_this_r3@lly_the_m0st_s3cure_s@f3_3ver?}

@@ -68,7 +68,7 @@ See `work/solve.py` (`.tbc` decoder + meter emulation + exact resolution, standa
 - Indices `(Ax` / `= b)` → linear system. `auto_path.../tcllib1.18` + `package require md5` → md5 used.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{1_hope_that_tcls_y0ur_f4ncy}

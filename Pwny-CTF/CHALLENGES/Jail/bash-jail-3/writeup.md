@@ -47,8 +47,8 @@ fi
 Banned letters: `o r i e n t s`. And again `> /dev/null` → blind reading (like bash jail 1).
 
 ## Solve script
-Script path: `scripts/main.sh`
-Script path: `scripts/solve.py`
+Script path: [scripts/main.sh](scripts/main.sh)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{redirection&misdirection}

@@ -44,7 +44,7 @@ Not specified.
 - Tools: quipqiup.com (mono-alphabetic substitution auto solver) · dcode.fr “Monoalphabetic Substitution”.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{alphabets_and_space_and_mars_are_very_fun}

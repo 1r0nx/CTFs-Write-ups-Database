@@ -67,7 +67,7 @@ print(a, b, N, Zs, Cs, Ts)
 - **Lesson**: first generate a **test instance with known flag** (`random.seed(1234)` + modified `chall.py`) and compare to the real suite.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{lmaoooo_w0t???y0u_d1d_17_??435p37++}

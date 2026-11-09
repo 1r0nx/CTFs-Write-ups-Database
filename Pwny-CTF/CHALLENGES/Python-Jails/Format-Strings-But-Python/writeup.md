@@ -69,7 +69,7 @@ Note: in a `str.format` field, `[os]` and `[FLAG]` use the **literal** string `'
 The `print("Here is the expression...")` then displays `sigpwny{...}+0`. The `+0` comes from the remaining `+{num2}` (→ `repr(num2)` = `0`). No need to go as far as the final calculation.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{why_are_format_strings_always_vulnerable}

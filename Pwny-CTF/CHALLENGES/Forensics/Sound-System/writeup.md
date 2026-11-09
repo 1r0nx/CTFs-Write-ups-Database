@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "forensics"
 difficulty: "Not specified"
 points: 100
-techniques: []
+techniques: ["crypto", "forensics", "steganography"]
 tools: ["steghide"]
 keywords: ["Sound-System", "Pwny-CTF", "forensics", "steghide", "jpg"]
 status: "solved"

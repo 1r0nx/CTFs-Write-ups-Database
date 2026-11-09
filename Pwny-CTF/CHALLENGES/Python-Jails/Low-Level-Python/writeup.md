@@ -46,7 +46,7 @@ Not specified.
 3. **`co_stacksize = 0`** (the “segfault in python”): the value stack has 0 slots allocated, any push writes **out of bounds**. Empirical test: stacking is in fact **tolerated** (datastack slack), EXCEPT that a `CALL` function **Python** places the callee frame **on top** of our OOB stack → upon return, reread the stack = corruption/segfault. → We only make **ONE `CALL`** (that of `win`), and we do not **reuse** the stack afterwards (`RETURN_VALUE` immediately). `win` prints the flag, then the eval exits properly.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{n0W_7HAT_w4ZNT_5o_b4d}

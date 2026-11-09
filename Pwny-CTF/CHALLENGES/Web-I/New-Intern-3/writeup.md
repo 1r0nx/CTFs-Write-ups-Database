@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "web"
 difficulty: "Not specified"
 points: 200
-techniques: []
+techniques: ["aes", "web-exploitation"]
 tools: []
 keywords: ["New-Intern-3", "Pwny-CTF", "web", "http"]
 status: "solved"

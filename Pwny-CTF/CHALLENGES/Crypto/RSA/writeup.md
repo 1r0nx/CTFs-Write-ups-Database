@@ -66,7 +66,7 @@ openssl pkeyutl -decrypt -inkey private.pem -in ciphertext                # padd
 Flag: `sigpwny{l34rn1ng_mod3rn_crypt0}`.
 
 ## Solve script
-Script path: `scripts/rsa.py`
+Script path: [scripts/rsa.py](scripts/rsa.py)
 
 ## Flag
 sigpwny{l34rn1ng_mod3rn_crypt0}

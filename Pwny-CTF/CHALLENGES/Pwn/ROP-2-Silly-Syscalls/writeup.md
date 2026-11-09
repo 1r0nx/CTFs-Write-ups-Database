@@ -60,7 +60,7 @@ No more win function this time! How will you get the flag now...
 5. `cat flag.txt`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{execvez_pz}

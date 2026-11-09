@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "reverse"
 difficulty: "Not specified"
 points: 100
-techniques: []
+techniques: ["reverse-engineering"]
 tools: ["pwntools", "netcat", "python"]
 keywords: ["1-asm-adder", "Pwny-CTF", "reverse", "pwntools", "netcat", "python", "syscall"]
 status: "solved"
@@ -53,7 +53,7 @@ p.interactive()
 3. `io.send(code + b"\n")` after `Give me code:`. → `My partner exited with: 112` + flag.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{look_mom_im_adding_numbers}

@@ -46,7 +46,7 @@ exec(user_input)
 The final payload is too varied to fit into 10 distinct characters — but the constraint only concerns the **1st** line.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{a_very_unique_exploit}

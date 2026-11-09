@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics"]
-tools: []
+tools: ["python"]
 keywords: ["47", "agent", "forensics"]
 status: "solved"
 has_script: false
@@ -110,7 +110,7 @@ I extracted the chunk
 
 I tried a rot47 brute force, looked in the results and found the flag
 
-![image.png](img/image%201.png)
+![image.png](img/image_1.png)
 
 **FLAG:** SADC{Jo1n_the_4dv3nture_in_4fric@!58963}
 

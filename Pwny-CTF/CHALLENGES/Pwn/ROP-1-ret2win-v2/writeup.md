@@ -59,8 +59,8 @@ I found a way to store as much data as you want for free! Come try out my Super 
 5. **Result** → `win(0xdeadbeef, 0xcafebabe)` → `You win!` + flag.
 
 ## Solve script
-Script path: `scripts/pwny.py`
-Script path: `scripts/solve_starter.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
+Script path: [scripts/solve_starter.py](scripts/solve_starter.py)
 
 ## Flag
 sigpwny{r3t2w1n_0n_st3ro1dz}

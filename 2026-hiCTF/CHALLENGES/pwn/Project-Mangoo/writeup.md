@@ -71,11 +71,11 @@ At the time of `call`, `rcx = rsi+0x18` (**not** the flag) → impossible to cal
 - **Recognize**: service `.exe` under wine + `socat`, menu with poorly bounded signed index (`cmp ax,0xf; jg` without lower bound) → negative OOB = leaks + call primitive.
 
 ## Solve script
-Script path: `scripts/diag.py`
-Script path: `scripts/diag2.py`
-Script path: `scripts/exploit.py`
-Script path: `scripts/mangoo.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/diag.py](scripts/diag.py)
+Script path: [scripts/diag2.py](scripts/diag2.py)
+Script path: [scripts/exploit.py](scripts/exploit.py)
+Script path: [scripts/mangoo.py](scripts/mangoo.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{n0_g4dg3ts_n0_sh3llc0d3_jusT_p1v0t_d33p3r_1f18a650c4}

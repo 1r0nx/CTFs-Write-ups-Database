@@ -4,8 +4,8 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Serie"
 difficulty: "Not specified"
 points: 0
-techniques: []
-tools: []
+techniques: ["lfi", "osint", "web-exploitation"]
+tools: ["strings"]
 keywords: ["forbidden", "scroll", "serie", "the"]
 status: "solved"
 has_script: false
@@ -30,7 +30,7 @@ See the original challenge files and images in this directory.
 
 ![Screenshot From 2025-11-09 09-48-32.png](img/Screenshot_From_2025-11-09_09-48-32.png)
 
-This challenge is the next one from [Echoes of the scrolls](Echoes%20of%20the%20Scroll%202a5a8a3fcb11802da760f17be0d4278c.md)
+This challenge is the next one from [Echoes of the scrolls](../Echoes-of-the-scrolls/writeup.md)
 
 This says to use the crackme we found in the last chall to get the flag
 

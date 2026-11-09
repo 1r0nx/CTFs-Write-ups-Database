@@ -79,7 +79,7 @@ int main(int argc, char **argv)
 `work/solve.py` does the same thing in pwntools (`sendline(b"206")`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [`scripts/solve.py`](scripts/solve.py)
 
 ## Flag
 sigpwny{go_with_the_fl0w}

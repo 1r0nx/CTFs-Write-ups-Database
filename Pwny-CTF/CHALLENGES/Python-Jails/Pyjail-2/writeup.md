@@ -44,7 +44,7 @@ exec(user_input)
 No more quotation marks possible → we cannot write a literal string; `x` forbidden case also `exec(...)` written by hand.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{dont_quote_me_on_that}

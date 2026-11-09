@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 20
-techniques: []
+techniques: ["web-exploitation"]
 tools: []
 keywords: ["Natas-0", "Pwny-CTF", "misc", "http"]
 status: "solved"

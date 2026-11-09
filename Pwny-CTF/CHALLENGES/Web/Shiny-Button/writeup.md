@@ -46,7 +46,7 @@ echo shell_exec('echo '.$_GET['string'].' | md5sum');
 Everything we put in `string` is injected into a real command line on the server side.
 
 ## Solve script
-Script path: `scripts/index.php`
+Script path: [scripts/index.php](scripts/index.php)
 
 ## Flag
 sigpwny{4lL_tH4T_g1it1eRS_iS_G0lD}

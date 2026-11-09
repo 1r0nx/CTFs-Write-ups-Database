@@ -64,7 +64,7 @@ void main(){ strcpy(blag_file,"blag.txt"); fgets(name,64,stdin); greet(name); pr
 `greet(name)` gives arbitrary write via `%n`. Instead of diverting `ret` (there is a **canary** here), we change what `fopen` will read: `blag.txt` → `flag.txt`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [`scripts/pwny.py`](scripts/pwny.py)
 
 ## Flag
 sigpwny{i_like_`sigpwny.com/pony-site`_more_than_our_current_site}

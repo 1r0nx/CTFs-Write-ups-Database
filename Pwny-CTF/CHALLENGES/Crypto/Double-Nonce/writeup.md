@@ -45,8 +45,8 @@ then s1 = k⁻¹(z1 + d r) ⟹ d = (s1 k - z1) / r mod n
 We recover `d`. Here `aes_key = d.to_bytes(32)`, so we decrypt the flag directly in AES-CBC: `sigpwny{r3duc3_r3use_rec5cl3}`.
 
 ## Solve script
-Script path: `scripts/chal.sage`
-Script path: `scripts/solve.py`
+Script path: [scripts/chal.sage](scripts/chal.sage)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{r3duc3_r3use_rec5cl3}

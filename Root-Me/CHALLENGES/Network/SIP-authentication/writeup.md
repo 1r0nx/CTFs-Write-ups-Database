@@ -4,7 +4,7 @@ ctf: "Root-Me"
 category: "network"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["network-analysis"]
 tools: []
 keywords: ["SIP-authentication", "Root-Me", "network"]
 status: "solved"

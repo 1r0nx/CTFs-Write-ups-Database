@@ -62,7 +62,7 @@ Get a shell on the remote host and read the flag.
 - Script: `work/solve.py` (`--remote` for target).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{0b1578aa1b39f4c6ab9a857a657ee71aKABO....!}

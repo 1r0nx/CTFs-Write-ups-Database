@@ -59,7 +59,7 @@ if (number != 0xcafebabe) print_flag();   // just CHANGE number
 Compiled with `-fno-stack-protector` (no canary) and `-O0`: the stack keeps the expected order, `number` is stuck just after `name`. The program even draws the stack before/after typing.
 
 ## Solve script
-Script path: `scripts/starter.py`
+Script path: [scripts/starter.py](scripts/starter.py)
 
 ## Flag
 sigpwny{lol_we_dont_give_our_janitors_pensions}

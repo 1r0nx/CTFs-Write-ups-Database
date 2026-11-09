@@ -45,7 +45,7 @@ See `work/solve.py` (Unicorn + gluttonous emulator, standalone). Live validation
 - Execution trap: it reads the flag via `read(fd=1, …)` — **from stdout**, not stdin. In pipe → `EBADF` and crash; you need a **PTY** (`process(…, stdin=PTY, stdout=PTY, stderr=PTY)`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{let5_r0p_n_r011}

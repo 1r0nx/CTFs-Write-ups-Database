@@ -60,7 +60,7 @@ void main(){ char name[64]; read_flag(flag); while(1){ fgets(name,64,stdin); gre
 Same `printf(name)` as 00 - Stack Read, but the flag is **no longer on the stack**: `%lx`/`%p` will never cross it. It must be read via **its address**.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [`scripts/pwny.py`](scripts/pwny.py)
 
 ## Flag
 sigpwny{wh4t_an_av1d_read3r}

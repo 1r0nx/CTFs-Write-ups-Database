@@ -87,8 +87,8 @@ The `shell` check (unchanged since Heap 2): `strncmp(current_user->name,"admin",
 - **See the heap**: `vis`/`vis_heap_chunks` (content + chunks), `tcachebins` (contents of the cache bins, the clearest to see a hole / a misplaced chunk). A free tcache 2.31 chunk = `fd` (chaining) then `key` (pointer to the tcache struct, anti-double-free).
 
 ## Solve script
-Script path: `scripts/heap4.c`
-Script path: `scripts/pwny.py`
+Script path: [scripts/heap4.c](scripts/heap4.c)
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{tls_is_wh3re_i_h1de_my_deepest_s3cret5}

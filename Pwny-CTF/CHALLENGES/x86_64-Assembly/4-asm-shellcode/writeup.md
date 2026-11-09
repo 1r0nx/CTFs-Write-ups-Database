@@ -39,7 +39,7 @@ Not specified.
 3. Send `cat flag.txt`. → flag.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{look_i_actually_popped_a_shell!}

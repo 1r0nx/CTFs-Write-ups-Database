@@ -45,7 +45,7 @@ exec(user_input)
 Naive filter: it forgets the **single** quotes `'`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{just_warming_up}

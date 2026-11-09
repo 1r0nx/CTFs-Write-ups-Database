@@ -46,7 +46,7 @@ exec(user_input)
 `exec` (unlike `eval`) accepts **statements** → `import os;...` works directly.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{i_always_trust_the_user}

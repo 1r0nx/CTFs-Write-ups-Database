@@ -55,7 +55,7 @@ print(N, e, d, t1, t2)
 therefore `pgcd(P1, P2) = a·x + b` (almost always) and `r = −b / a mod N`. No factorization of N.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{your_ai_slop_bores_me}

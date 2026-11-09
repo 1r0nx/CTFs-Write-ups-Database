@@ -67,8 +67,8 @@ The secret is compared like `clients.findOne({client_id, client_secret})` withou
 (`$gt`/`$exists` returns "invalid" here, but `$ne` and `$regex` pass.)
 
 ## Solve script
-Script path: `scripts/leak.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/leak.py](scripts/leak.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{bl1nd_regex_3xfil_then_f0rge_the_cust0m_s1gner_1aa2d6a999}

@@ -57,7 +57,7 @@ Continuation of 0 - Overflow: here it is not enough to change `number`, it must 
 - Find the offset properly: cyclic(200) then cyclic_find(<value at crash>).
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{1_think_you_should_use_fgets_not_gets}

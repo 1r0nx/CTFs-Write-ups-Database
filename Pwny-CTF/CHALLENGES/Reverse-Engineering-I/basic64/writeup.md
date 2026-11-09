@@ -29,7 +29,7 @@ Not specified.
 3. Flag = `sigpwny{base64_is_not_encryption}` (checked).
 
 ## Solve script
-Script path: `scripts/basic64.py`
+Script path: [scripts/basic64.py](scripts/basic64.py)
 
 ## Flag
 sigpwny{base64_is_not_encryption}

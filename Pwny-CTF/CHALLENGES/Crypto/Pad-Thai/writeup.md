@@ -51,8 +51,8 @@ Method:
 ```
 
 ## Solve script
-Script path: `scripts/coppersmith.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/coppersmith.py](scripts/coppersmith.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{b3_c4r3ful_w1th_p4dd1n6}

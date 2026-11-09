@@ -49,9 +49,9 @@ A simple modular calculation, no hard discrete log. (For a singularity with **no
 ```
 
 ## Solve script
-Script path: `scripts/mini_ecdsa.py`
-Script path: `scripts/solve.py`
-Script path: `scripts/tonelli_shanks.py`
+Script path: [scripts/mini_ecdsa.py](scripts/mini_ecdsa.py)
+Script path: [scripts/solve.py](scripts/solve.py)
+Script path: [scripts/tonelli_shanks.py](scripts/tonelli_shanks.py)
 
 ## Flag
 sigpwny{okay_next_time_ill_make_the_curve}

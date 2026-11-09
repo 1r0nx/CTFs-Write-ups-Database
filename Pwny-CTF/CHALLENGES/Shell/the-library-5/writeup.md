@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["misc"]
 tools: ["strings"]
 keywords: ["the-library-5", "Pwny-CTF", "misc", "strings", "elf"]
 status: "solved"

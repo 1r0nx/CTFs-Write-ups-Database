@@ -54,7 +54,7 @@ Can you pwn this program and read flag.txt? This binary has full protections ðŸ˜
 6. **Shell** â†’ `cat flag.txt`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{congratulations_for_figuring_that_one_out!}

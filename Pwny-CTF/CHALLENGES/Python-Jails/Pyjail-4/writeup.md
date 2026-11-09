@@ -48,7 +48,7 @@ exec(user_input)          # in a try/except Exception
 The list bans most common bricks — but not `breakpoint`. (Fun bug: `'cat' 'flag'` without a comma = Python concatenation → single entry `'catflag'`, so neither `cat` nor `flag` alone are actually banned.)
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{stupid_exceptions}

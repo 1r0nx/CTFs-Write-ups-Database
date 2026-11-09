@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics", "web"]
-tools: []
+tools: ["unzip"]
 keywords: ["archive", "forensics"]
 status: "solved"
 has_script: false

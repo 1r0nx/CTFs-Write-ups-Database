@@ -35,7 +35,7 @@ I'm using a new obfuscation technique called screaming. Now you can't cheat my q
 5. `transform` is a **bijection** on `0..255` (verified: the 256 outputs are a permutation) → build the inverse table, split the target constant into bytes, remove the final `00` (from the end `<<8`), invert each byte. The `sigpwny{…}` portion comes out cleanly (the unreadable prefix comes from the bytes of the other questions, encoded differently).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{n0t_3nough_0bfusc4t10n}

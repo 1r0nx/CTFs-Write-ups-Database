@@ -67,8 +67,8 @@ Extracting a **LittleFS partition** from an ESP32 flash image, **decompiling the
 - Recognize this type: flash image of an IoT device + network capture ⇒ extract the FS, decompile the agent (Berry/Lua/…), replay/validate with the traffic.
 
 ## Solve script
-Script path: `scripts/bec_dis.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/bec_dis.py](scripts/bec_dis.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{b3rry_r0t4t10n_c94934d76344ab1151e03afd}

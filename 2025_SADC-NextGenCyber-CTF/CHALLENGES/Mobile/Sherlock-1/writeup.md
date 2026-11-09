@@ -4,8 +4,8 @@ ctf: "2025_SADC-NextGenCyber-CTF"
 category: "Mobile"
 difficulty: "Not specified"
 points: 0
-techniques: []
-tools: []
+techniques: ["mobile"]
+tools: ["python"]
 keywords: ["1", "mobile", "sherlock"]
 status: "solved"
 has_script: false

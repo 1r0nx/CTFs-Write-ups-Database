@@ -38,7 +38,7 @@ Windows console game “PIRATE'S HOOK”: navigation function always returns **w
    - `flag[i] = ciphertext[i] XOR key[i & 7]`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{4rr6h_my_tr34sUr3_m4p}

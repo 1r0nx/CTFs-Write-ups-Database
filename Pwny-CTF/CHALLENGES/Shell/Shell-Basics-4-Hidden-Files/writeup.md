@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "misc"
 difficulty: "Not specified"
 points: 20
-techniques: []
+techniques: ["misc"]
 tools: []
 keywords: ["Shell-Basics-4-Hidden-Files", "Pwny-CTF", "misc"]
 status: "solved"

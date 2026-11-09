@@ -79,7 +79,7 @@ The source of truth is the **Minetest/Luanti source code**:
 - **Trap 3 (mirror)**: a wall can be read upright on one side only → test the inversion of the axis.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 uiuctf{BudG3t_c4ves_N_cl1fFs}

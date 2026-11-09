@@ -44,7 +44,7 @@ m = integer_nthroot(X, 13)    # exact root -> sigpwny{numbers_are_fun}
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{numbers_are_fun}

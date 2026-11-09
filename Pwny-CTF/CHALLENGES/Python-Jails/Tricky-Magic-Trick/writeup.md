@@ -56,7 +56,7 @@ Indices are assigned by **order of first appearance** of constants in the source
 **What is NOT folded**: a **comparison chain** `0<1<2<...` (emits an integer `LOAD_CONST`, never folded) and a **one-pair dict** `{k:v}` (opcode `BUILD_MAP`, individual `LOAD_CONST`).
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{what_even_is_a_constant}

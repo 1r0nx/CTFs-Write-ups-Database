@@ -124,7 +124,7 @@ The Python script automates exactly these steps:
 We thus obtain the complete Morse string, which then simply needs to be translated with a Morse decoder to find the original message or flag.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 RM{WH0SA1DTHATM0RSE1SN0TUSEFUL???}

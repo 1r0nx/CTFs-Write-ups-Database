@@ -58,7 +58,7 @@ if (number == 0xdeadbeef) print_flag();   // you need a PRECISE value, not just 
 Direct sequel to Bug Bounty 1: same structure (no canary, `-O0`), but the condition changes from `!=` to `==`. Changing `number` randomly (like 40 `A` + `\0`) is no longer enough: you have to aim for `0xdeadbeef` exactly.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{double_the_engineers_double_the_bugs}

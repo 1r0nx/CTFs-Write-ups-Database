@@ -54,7 +54,7 @@ Not specified.
 Launch: `./pwny.py --remote --host chal.sigpwny.com --port 1385`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [`scripts/pwny.py`](scripts/pwny.py)
 
 ## Flag
 sigpwny{you_are_a_format_string_g0d}

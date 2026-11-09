@@ -49,8 +49,8 @@ B^a = 2 · out^{-1} mod p
 One call is enough. We submit this `B^a` → flag `sigpwny{th3r3z_a_r3450n_e19am91_1snt_u53d_1n_7h3_w11d}`.
 
 ## Solve script
-Script path: `scripts/elgamal-oracle.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/elgamal-oracle.py](scripts/elgamal-oracle.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{th3r3z_a_r3450n_e19am91_1snt_u53d_1n_7h3_w11d}

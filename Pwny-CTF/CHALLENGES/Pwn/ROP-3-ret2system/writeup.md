@@ -75,7 +75,7 @@ No more gadgets, no more problems
 - **`puts` survives misalignment, not `printf`**: `puts` of a short string = `strlen`+`write` (no `movaps`); `printf`/`vfprintf` uses SSE → requires RSP aligned to 16.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{tw1ce_th3_r0pcha1ns_d0ubl3_1he_fun}

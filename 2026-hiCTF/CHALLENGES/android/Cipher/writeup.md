@@ -51,8 +51,8 @@ Android vault, dozens of records encrypted behind a single passphrase. cipher.zi
 - **`java.util.Random` poorly reconstructed**: `next(31)` is **always ≥ 0** (bit 31 null); my conversion to signed integer (valid only for `next(32)`) broke `nextInt(256)` → 1st pass “not found”. Fixed: cast `(int)` only if 32 bits.
 
 ## Solve script
-Script path: `scripts/brute.py`
-Script path: `scripts/decrypt.py`
+Script path: [scripts/brute.py](scripts/brute.py)
+Script path: [scripts/decrypt.py](scripts/decrypt.py)
 
 ## Flag
 hiCTF{cryptography_should_be_implemnetd_properly}

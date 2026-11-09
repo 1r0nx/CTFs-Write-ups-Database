@@ -73,7 +73,7 @@ Flag: `sigpwny{fun_w17h_func710n_p01n73r5}`. Script: `work/pwny.py` (parses the 
 - **Off-by-one bonus** (not used): `settings` tests `index > OPERATIONS_SIZE` (5) instead of `>=` → index 5 outside the table also accessible. The clean path (index 2 in-bounds) was enough.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{fun_w17h_func710n_p01n73r5}

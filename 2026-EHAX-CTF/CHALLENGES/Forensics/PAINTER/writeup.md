@@ -5,7 +5,7 @@ category: "Forensics"
 difficulty: "Not specified"
 points: 0
 techniques: ["forensics"]
-tools: []
+tools: ["python", "tshark", "wireshark"]
 keywords: ["forensics", "painter"]
 status: "solved"
 has_script: false
@@ -38,7 +38,7 @@ Opening it in wireshark show that it’s a capture of USB protocol
 
 Now by looking around google and AI help I found something called “7-byte mouse report”
 
-![image.png](img/image_01.png)
+![image.png](img/image_1.png)
 
 First I extracted the mouses data with:
 
@@ -48,11 +48,11 @@ tshark -r pref.pcap -T fields -e usb.capdata > data.txt
 
 Here is an overview of the file:
 
-![image.png](img/image_02.png)
+![image.png](img/image_2.png)
 
 And wrote a python script to recover the mouse path 
 
-[solve.py](PAINTER/solve.py)
+[solve.py](scripts/solve.py)
 
 That gave this image:
 

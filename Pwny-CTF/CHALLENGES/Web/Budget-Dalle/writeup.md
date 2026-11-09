@@ -5,7 +5,7 @@ category: "web"
 difficulty: "Not specified"
 points: 100
 techniques: ["path-traversal"]
-tools: []
+tools: ["python"]
 keywords: ["Budget-Dalle", "Pwny-CTF", "web", "path-traversal", "png", "jpg", "http"]
 status: "solved"
 has_script: false

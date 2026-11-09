@@ -43,7 +43,7 @@ Bug bounty: $0.01
 6. `conn.interactive()` → shell → `cat flag.txt`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{i_shoulda_used_rust_instead}

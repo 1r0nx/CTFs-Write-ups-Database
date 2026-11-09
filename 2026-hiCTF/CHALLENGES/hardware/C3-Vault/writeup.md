@@ -69,17 +69,17 @@ Service: `C3VAULT/2 READY` → `CHALLENGE <64hex>`; we answer `AUTH <64hex>` →
 **Recovery chain**: Flash Encryption key (eFuse) → decrypt partition table and `nvs_keys` → NVS Encryption key → decrypt NVS (credentials) → **replay auth protocol** (disassembled from firmware).
 
 ## Solve script
-Script path: `scripts/conn.py`
-Script path: `scripts/disas.py`
-Script path: `scripts/dump_region.py`
-Script path: `scripts/esp_flash_dec.py`
-Script path: `scripts/esp_img.py`
-Script path: `scripts/keytest.py`
-Script path: `scripts/nvs_decrypt.py`
-Script path: `scripts/nvs_full.py`
-Script path: `scripts/nvs_parse.py`
-Script path: `scripts/parse_ptable.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/conn.py](scripts/conn.py)
+Script path: [scripts/disas.py](scripts/disas.py)
+Script path: [scripts/dump_region.py](scripts/dump_region.py)
+Script path: [scripts/esp_flash_dec.py](scripts/esp_flash_dec.py)
+Script path: [scripts/esp_img.py](scripts/esp_img.py)
+Script path: [scripts/keytest.py](scripts/keytest.py)
+Script path: [scripts/nvs_decrypt.py](scripts/nvs_decrypt.py)
+Script path: [scripts/nvs_full.py](scripts/nvs_full.py)
+Script path: [scripts/nvs_parse.py](scripts/nvs_parse.py)
+Script path: [scripts/parse_ptable.py](scripts/parse_ptable.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{efus3_cl34r_jt4g_0p3n_nv5_1936cba275}

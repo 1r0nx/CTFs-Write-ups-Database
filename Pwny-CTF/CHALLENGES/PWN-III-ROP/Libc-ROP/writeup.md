@@ -84,7 +84,7 @@ Flag: `sigpwny{HUGH_congratulations_for_figuring_that_one_out!}`.
 - **Libc base**: `leak - 0xf3 - sym["__libc_start_main"]` (`0xf3` = offset of `ret` in `__libc_start_main` for this libc 2.31). Alternative pwntools: `libc.address = leak - libc.libc_start_main_return`.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{HUGH_congratulations_for_figuring_that_one_out!}

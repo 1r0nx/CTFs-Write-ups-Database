@@ -62,7 +62,7 @@ Flag = parts after the last group of hyphens: `hiCTF{` + `alpc_p0rt_c0lloquy_` +
 - SOFTWARE.LOG1/2 date from 2024: replaying them corrupts the hive -> use the original hive.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{alpc_p0rt_c0lloquy_s35s10n_z3r0_syst3npr0f1l3_r3p4r53_buff3r_vort3x}

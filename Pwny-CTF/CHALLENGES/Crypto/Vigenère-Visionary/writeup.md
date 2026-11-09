@@ -47,7 +47,7 @@ Note: consider this an introduction to repeated key encryption, where the key is
 - Tools: dcode.fr “Vigenere Cipher” (known key mode, or keyless self-breaking) · CyberChef “Vigenère Decode”.
 
 ## Solve script
-Script path: `scripts/vigenere.py`
+Script path: [scripts/vigenere.py](scripts/vigenere.py)
 
 ## Flag
 sigpwny{caesarwithjustalittlebitmoreoliveoil}

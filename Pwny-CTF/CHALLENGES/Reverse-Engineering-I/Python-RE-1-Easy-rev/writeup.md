@@ -5,7 +5,7 @@ category: "reverse"
 difficulty: "easy"
 points: 75
 techniques: ["xor-cipher", "reverse-engineering", "vm-reverse"]
-tools: []
+tools: ["python"]
 keywords: ["Python-RE-1-Easy-rev", "Pwny-CTF", "reverse", "xor-cipher", "reverse-engineering", "vm-reverse", "xor"]
 status: "solved"
 has_script: false

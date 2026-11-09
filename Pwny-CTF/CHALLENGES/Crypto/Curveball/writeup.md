@@ -50,8 +50,8 @@ Method:
 ```
 
 ## Solve script
-Script path: `scripts/decryptor.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/decryptor.py](scripts/decryptor.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{n0t_s0_s3cr3t_anYm0r3}

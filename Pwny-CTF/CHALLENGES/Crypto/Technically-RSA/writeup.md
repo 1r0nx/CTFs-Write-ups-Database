@@ -43,7 +43,7 @@ m   = c^d mod n  ->  sigpwny{d0_n0t_u5e_tw0}
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{d0_n0t_u5e_tw0}

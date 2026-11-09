@@ -47,7 +47,7 @@ is calculated **instantly** (Euclid), while factoring a single `n` is infeasible
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{more_keys_less_secure}

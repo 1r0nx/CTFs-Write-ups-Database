@@ -4,7 +4,7 @@ ctf: "Pwny-CTF"
 category: "web"
 difficulty: "Not specified"
 points: 50
-techniques: []
+techniques: ["aes", "encoding", "web-exploitation"]
 tools: ["curl"]
 keywords: ["Decision-Day-1", "Pwny-CTF", "web", "curl", "http"]
 status: "solved"

@@ -36,8 +36,8 @@ I found this new store that sells challenges, but I heard they might also sell f
 4. The N (number of iterations of `while c!= 60: c = (c*0x1337)%2**32`) is enormous (almost a discrete log) — **no need to calculate it**: `T` is a bijection of **small order** on the domain, so applying `Tinv` until you end up with readable ASCII is enough. Here **2 applications** give `sigpwny{d0nt_just_l00k_buy_buy_buy}`.
 
 ## Solve script
-Script path: `scripts/mod.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/mod.py](scripts/mod.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{d0nt_just_l00k_buy_buy_buy}

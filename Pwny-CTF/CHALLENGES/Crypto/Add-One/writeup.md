@@ -44,7 +44,7 @@ But we want `P + 1` (**arithmetic** addition), not an XOR. `P ⊕ 1 == P + 1` on
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{if_it_works_sometimes_thats_good_enough}

@@ -52,7 +52,7 @@ Values: **cycles = 9,000,000,000**, anchor ≈ **2048 bits** (safe prime, non-fa
 | 5 | `k = sha256(v, 256 B big-endian)`; ChaCha20-Poly1305 | valid tag → flag |
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 hiCTF{n1c3_w0rk_n0w_t4k3_s0m3_r3}

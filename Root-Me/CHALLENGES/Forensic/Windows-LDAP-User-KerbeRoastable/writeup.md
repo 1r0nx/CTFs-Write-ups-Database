@@ -4,7 +4,7 @@ ctf: "Root-Me"
 category: "forensics"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["forensics"]
 tools: []
 keywords: ["Windows-LDAP-User-KerbeRoastable", "Root-Me", "forensics"]
 status: "solved"

@@ -43,7 +43,7 @@ SMB is managed natively: `tshark -r chall_wireshark.pcapng --export-objects smb,
 **Extracting files (file carving) from a multi-protocol network capture.** Each protocol is retrieved differently: some are managed natively by Wireshark/tshark, others (NFS) require manual reassembly.
 
 ## Solve script
-Script path: `scripts/nfs-extract.py`
+Script path: [scripts/nfs-extract.py](scripts/nfs-extract.py)
 
 ## Flag
 Zeld@P0kemonM@rio

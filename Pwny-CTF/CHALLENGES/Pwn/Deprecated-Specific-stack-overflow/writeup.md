@@ -47,7 +47,7 @@ sla(b"!", payload)
 ```
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{awesome_job_dont_forget_about_endianness}

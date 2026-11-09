@@ -85,8 +85,8 @@ Grander Finale = Full RELRO → impossible to write the GOT → we overwrite the
 - `buf = 0x1000` bytes = **512 slots** of 8 B → hence very large `%N$p` offsets (~523/525) to exceed the buffer and reach the saved RIP.
 
 ## Solve script
-Script path: `scripts/pwny.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{printf_can_change_control_flow}

@@ -38,7 +38,7 @@ But in this challenge, private exhibitors are drawn into `[1, 100000]`: **small*
 Flag: `sigpwny{3v3ry0n3_f0rg3t5_4b0u7_m3rkl3_wh3n_d01ng_k3y_3xch4ng3}`.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{3v3ry0n3_f0rg3t5_4b0u7_m3rkl3_wh3n_d01ng_k3y_3xch4ng3}

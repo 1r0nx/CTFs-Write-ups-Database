@@ -4,7 +4,7 @@ ctf: "Root-Me"
 category: "forensics"
 difficulty: "Not specified"
 points: null
-techniques: []
+techniques: ["forensics"]
 tools: ["impacket"]
 keywords: ["Windows-NTDS-Secret-extraction", "Root-Me", "forensics", "impacket"]
 status: "solved"

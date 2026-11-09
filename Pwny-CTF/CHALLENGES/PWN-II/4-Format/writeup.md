@@ -76,7 +76,7 @@ fgets(place, 64, stdin);  // (3) input -> OVERFLOW (64 > 32)
 The `printf(name)` is used to **leak**, the `fgets(place, 64)` to **overflow** and overwrite the return address.
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{printf_does_exactly_as_told_and_nothing_more}

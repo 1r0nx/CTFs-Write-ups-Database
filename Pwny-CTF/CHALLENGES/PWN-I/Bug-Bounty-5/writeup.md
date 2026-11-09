@@ -67,7 +67,7 @@ This time, no `print_flag()` to divert: the binary does not contain any function
 `checksec` confirms that it is possible: `Stack: Executable` / `RWX: Has RWX segments`. The stack can execute code, despite `NX enabled` at the kernel level (the binary forces an RWX stack regardless of this system protection).
 
 ## Solve script
-Script path: `scripts/pwny.py`
+Script path: [scripts/pwny.py](scripts/pwny.py)
 
 ## Flag
 sigpwny{we_print_our_own_flags_here}

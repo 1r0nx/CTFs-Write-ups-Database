@@ -41,8 +41,8 @@ Not specified.
 Script: `work/solve.py`.
 
 ## Solve script
-Script path: `scripts/server.py`
-Script path: `scripts/solve.py`
+Script path: [scripts/server.py](scripts/server.py)
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{numbers_are_hard}

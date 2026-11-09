@@ -70,7 +70,7 @@ Coils / input registers / discrete inputs → **error** (not implemented). Every
 - Read **Holding Registers 100..120** and change the display to **ASCII/String**: the flag is displayed once the concentration ([1]) rises above ~9600.
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 CTF{a95d4db0158d93bbe8d3290b503e7437}

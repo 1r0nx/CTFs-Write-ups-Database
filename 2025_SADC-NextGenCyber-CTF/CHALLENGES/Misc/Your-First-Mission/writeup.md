@@ -5,7 +5,7 @@ category: "Misc"
 difficulty: "Not specified"
 points: 0
 techniques: ["misc", "reverse"]
-tools: []
+tools: ["unzip"]
 keywords: ["first", "misc", "mission", "your"]
 status: "solved"
 has_script: false

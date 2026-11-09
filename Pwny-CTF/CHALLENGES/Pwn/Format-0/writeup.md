@@ -60,7 +60,7 @@ python3 -c 'from pwn import *;io=remote("chal.sigpwny.com",1338);io.sendline(b"%
 ```
 
 ## Solve script
-Script path: `scripts/solve.py`
+Script path: [scripts/solve.py](scripts/solve.py)
 
 ## Flag
 sigpwny{strings_are_fun}

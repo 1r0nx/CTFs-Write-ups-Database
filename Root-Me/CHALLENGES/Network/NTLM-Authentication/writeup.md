@@ -4,8 +4,8 @@ ctf: "Root-Me"
 category: "network"
 difficulty: "Not specified"
 points: null
-techniques: []
-tools: []
+techniques: ["hash-cracking", "pcap-analysis", "web-exploitation"]
+tools: ["john"]
 keywords: ["NTLM-Authentication", "Root-Me", "network"]
 status: "solved"
 has_script: false
