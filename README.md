@@ -4,7 +4,7 @@ A searchable collection of solved CTF challenge write-ups.
 
 ## What's inside
 
-- 272 solved challenges across several CTFs (Pwny-CTF, 2026-battleCTF, 2026-hiCTF, 2026-PINK, Root-Me, 2025_SADC-NextGenCyber-CTF, 2026-EHAX-CTF).
+- 272 solved challenges across several CTFs (Pwny-CTF, 2026-battleCTF, 2026-hiCTF, 2026-PINK, Root-Me, 2025-SADC-NextGenCyber-CTF, 2026-EHAX-CTF).
 - Each challenge has its own `writeup.md` with a fixed, machine-parseable structure: YAML frontmatter (`title`, `ctf`, `category`, `difficulty`, `points`, `techniques`, `tools`, `keywords`, `status`, `has_script`, `source`) followed by sections `Summary`, `Statement and artefacts`, `Recognition signals`, `Resolution method`, `Discarded approaches` (optional), `Solve script` (optional), `Flag`, `Lessons and reusable patterns`.
 - No cross-references: every write-up stands on its own.
 - All flags are preserved exactly.

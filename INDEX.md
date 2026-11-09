@@ -267,37 +267,37 @@ Index des write-ups par CTF. Colonnes : Catégorie | Challenge | Techniques | Sc
 | Network | OSPF-Authentication | password-cracking, pcap-analysis, encoding, hash-cracking | non | `Root-Me/CHALLENGES/Network/OSPF-Authentication/writeup.md` |
 | Network | RF-AM-Transmission | forensics | non | `Root-Me/CHALLENGES/Network/RF-AM-Transmission/writeup.md` |
 
-## 2025_SADC-NextGenCyber-CTF
+## 2025-SADC-NextGenCyber-CTF
 
 | Catégorie | Challenge | Techniques | Script | Chemin |
 |---|---|---|---|---|
-| Binary-Exploitation | Binary-nexus | reverse-engineering | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Binary-nexus/writeup.md` |
-| Binary-Exploitation | Pwn0x1 | buffer-overflow, pwn | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x1/writeup.md` |
-| Binary-Exploitation | Pwn0x2 | pwn | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x2/writeup.md` |
-| Binary-Exploitation | Pwn0x3 | pwn | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x3/writeup.md` |
-| Binary-Exploitation | Register | pwn | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Register/writeup.md` |
-| Binary-Exploitation | Riddle | pwn | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Riddle/writeup.md` |
-| Boot2root | Secure-Admin | reverse | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Boot2root/Secure-Admin/writeup.md` |
-| Boot2root | Sheldon-Treasure-Trail | rfi, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Boot2root/Sheldon-Treasure-Trail/writeup.md` |
-| Cryptography | Broken-RSA | crypto, rsa | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Cryptography/Broken-RSA/writeup.md` |
-| Cryptography | Decoder | crypto | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Cryptography/Decoder/writeup.md` |
-| Forensics | Agent-47 | forensics | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Agent-47/writeup.md` |
-| Forensics | Archive | forensics, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Archive/writeup.md` |
-| Forensics | Sound | forensics, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Sound/writeup.md` |
-| Forensics | Suspicious-Web-Activities | forensics, sql, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Suspicious-Web-Activities/writeup.md` |
-| Forensics | The-Obfuscated-PHP-Malware | forensics | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Forensics/The-Obfuscated-PHP-Malware/writeup.md` |
-| Misc | Your-First-Mission | misc, reverse | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Misc/Your-First-Mission/writeup.md` |
-| Mobile | Sherlock-1 | mobile | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Mobile/Sherlock-1/writeup.md` |
-| Mobile | Sherlock-7 | web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Mobile/Sherlock-7/writeup.md` |
-| OSINT | New-Currency-2 | osint, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/OSINT/New-Currency-2/writeup.md` |
-| OSINT | ProtonPgp | osint | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/OSINT/ProtonPgp/writeup.md` |
-| Serie | Echoes-of-the-scrolls | web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Serie/Echoes-of-the-scrolls/writeup.md` |
-| Serie | Hidden-Vault | web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Serie/Hidden-Vault/writeup.md` |
-| Serie | The-forbidden-scroll | lfi, osint, web-exploitation | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Serie/The-forbidden-scroll/writeup.md` |
-| Web | Fatal | lfi, web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Web/Fatal/writeup.md` |
-| Web | Forbiden | web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Web/Forbiden/writeup.md` |
-| Web | Samurai | web, xss | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Web/Samurai/writeup.md` |
-| Web | Xaml-Fasa | web | non | `2025_SADC-NextGenCyber-CTF/CHALLENGES/Web/Xaml-Fasa/writeup.md` |
+| Binary-Exploitation | Binary-nexus | reverse-engineering | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Binary-nexus/writeup.md` |
+| Binary-Exploitation | Pwn0x1 | buffer-overflow, pwn | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x1/writeup.md` |
+| Binary-Exploitation | Pwn0x2 | pwn | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x2/writeup.md` |
+| Binary-Exploitation | Pwn0x3 | pwn | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Pwn0x3/writeup.md` |
+| Binary-Exploitation | Register | pwn | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Register/writeup.md` |
+| Binary-Exploitation | Riddle | pwn | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Binary-Exploitation/Riddle/writeup.md` |
+| Boot2root | Secure-Admin | reverse | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Boot2root/Secure-Admin/writeup.md` |
+| Boot2root | Sheldon-Treasure-Trail | rfi, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Boot2root/Sheldon-Treasure-Trail/writeup.md` |
+| Cryptography | Broken-RSA | crypto, rsa | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Cryptography/Broken-RSA/writeup.md` |
+| Cryptography | Decoder | crypto | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Cryptography/Decoder/writeup.md` |
+| Forensics | Agent-47 | forensics | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Agent-47/writeup.md` |
+| Forensics | Archive | forensics, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Archive/writeup.md` |
+| Forensics | Sound | forensics, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Sound/writeup.md` |
+| Forensics | Suspicious-Web-Activities | forensics, sql, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Forensics/Suspicious-Web-Activities/writeup.md` |
+| Forensics | The-Obfuscated-PHP-Malware | forensics | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Forensics/The-Obfuscated-PHP-Malware/writeup.md` |
+| Misc | Your-First-Mission | misc, reverse | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Misc/Your-First-Mission/writeup.md` |
+| Mobile | Sherlock-1 | mobile | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Mobile/Sherlock-1/writeup.md` |
+| Mobile | Sherlock-7 | web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Mobile/Sherlock-7/writeup.md` |
+| OSINT | New-Currency-2 | osint, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/OSINT/New-Currency-2/writeup.md` |
+| OSINT | ProtonPgp | osint | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/OSINT/ProtonPgp/writeup.md` |
+| Serie | Echoes-of-the-scrolls | web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Serie/Echoes-of-the-scrolls/writeup.md` |
+| Serie | Hidden-Vault | web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Serie/Hidden-Vault/writeup.md` |
+| Serie | The-forbidden-scroll | lfi, osint, web-exploitation | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Serie/The-forbidden-scroll/writeup.md` |
+| Web | Fatal | lfi, web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Web/Fatal/writeup.md` |
+| Web | Forbiden | web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Web/Forbiden/writeup.md` |
+| Web | Samurai | web, xss | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Web/Samurai/writeup.md` |
+| Web | Xaml-Fasa | web | non | `2025-SADC-NextGenCyber-CTF/CHALLENGES/Web/Xaml-Fasa/writeup.md` |
 
 ## 2026-EHAX-CTF
 
